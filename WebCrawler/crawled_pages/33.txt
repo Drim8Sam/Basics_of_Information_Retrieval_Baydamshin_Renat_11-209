@@ -1,0 +1,1206 @@
+<!DOCTYPE html>
+<html class="client-nojs vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8">
+<title>Internet Protocol - Wikipedia</title>
+<script>(function(){var className="client-js vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-clientpref-1 vector-feature-main-menu-pinned-disabled vector-feature-limited-width-clientpref-1 vector-feature-limited-width-content-enabled vector-feature-custom-font-size-clientpref-1 vector-feature-appearance-pinned-clientpref-1 skin-theme-clientpref-day vector-sticky-header-enabled vector-toc-available";var cookie=document.cookie.match(/(?:^|; )enwikimwclientpreferences=([^;]+)/);if(cookie){cookie[1].split('%2C').forEach(function(pref){className=className.replace(new RegExp('(^| )'+pref.replace(/-clientpref-\w+$|[^\w-]+/g,'')+'-clientpref-\\w+( |$)'),'$1'+pref+'$2');});}document.documentElement.className=className;}());RLCONF={"wgBreakFrames":false,"wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgRequestId":"3f9232c4-890f-4ff5-80b0-59f05ce6d6ac","wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Internet_Protocol","wgTitle":"Internet Protocol","wgCurRevisionId":1338688847,"wgRevisionId":1338688847,"wgArticleId":15323,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Webarchive template wayback links","Articles with short description","Short description matches Wikidata","Use American English from November 2025","All Wikipedia articles written in American English","Articles containing potentially dated statements from January 2023","All articles containing potentially dated statements","Internet Protocol","Internet layer protocols","Internet"],"wgPageViewLanguage":"en","wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgRelevantPageName":"Internet_Protocol","wgRelevantArticleId":15323,"wgTempUserName":null,"wgIsProbablyEditable":true,"wgRelevantPageIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgNoticeProject":"wikipedia","wgFlaggedRevsParams":{"tags":{"status":{"levels":1}}},"wgConfirmEditCaptchaNeededForGenericEdit":"hcaptcha","wgConfirmEditHCaptchaVisualEditorOnLoadIntegrationEnabled":false,"wgConfirmEditHCaptchaSiteKey":"5d0c670e-a5f4-4258-ad16-1f42792c9c62","wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsFlags":0,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","pageVariantFallbacks":"en"},"wgMFDisplayWikibaseDescriptions":{"search":true,"watchlist":true,"tagline":false,"nearby":true},"wgWMESchemaEditAttemptStepOversample":false,"wgWMEPageLength":20000,"wgEditSubmitButtonLabelPublish":true,"wgVisualEditorPageIsDisambiguation":false,"wgULSPosition":"interlanguage","wgULSisCompactLinksEnabled":false,"wgVector2022LanguageInHeader":true,"wgULSisLanguageSelectorEmpty":false,"wgWikibaseItemId":"Q8795","wgCheckUserClientHintsHeadersJsApi":["brands","architecture","bitness","fullVersionList","mobile","model","platform","platformVersion"],"GEHomepageSuggestedEditsEnableTopics":true,"wgGESuggestedEditsTaskTypes":{"taskTypes":["copyedit","link-recommendation"],"unavailableTaskTypes":[]},"wgGETopicsMatchModeEnabled":false,"wgGELevelingUpEnabledForUser":false,"wgGEUseTestKitchenExtension":true,"wgMetricsPlatformUserExperiments":{"active_experiments":[],"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[],"sampling_units":[],"coordinator":[]},"wgTestKitchenUserExperiments":{"active_experiments":[],"overrides":[],"enrolled":[],"assigned":[],"subject_ids":[],"sampling_units":[],"coordinator":[]}};
+RLSTATE={"ext.globalCssJs.user.styles":"ready","site.styles":"ready","user.styles":"ready","ext.globalCssJs.user":"ready","user":"ready","user.options":"loading","ext.wikimediamessages.styles":"ready","ext.cite.styles":"ready","skins.vector.search.codex.styles":"ready","skins.vector.styles":"ready","skins.vector.icons":"ready","jquery.makeCollapsible.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","wikibase.client.init":"ready"};RLPAGEMODULES=["ext.cite.ux-enhancements","mediawiki.page.media","site","mediawiki.page.ready","jquery.makeCollapsible","mediawiki.toc","skins.vector.js","ext.centralNotice.geoIP","ext.centralNotice.startUp","ext.gadget.ReferenceTooltips","ext.gadget.switcher","ext.urlShortener.toolbar","ext.centralauth.centralautologin","mmv.bootstrap","ext.popups","ext.visualEditor.desktopArticleTarget.init","ext.echo.centralauth","ext.eventLogging","ext.wikimediaEvents","ext.navigationTiming","ext.uls.interface","ext.cx.eventlogging.campaigns","ext.cx.uls.quick.actions","wikibase.client.vector-2022","wikibase.databox.fromWikidata","ext.checkUser.clientHints","ext.growthExperiments.SuggestedEditSession","ext.xLab","ext.testKitchen"];</script>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.impl(function(){return["user.options@12s5i",function($,jQuery,require,module){mw.user.tokens.set({"patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});
+}];});});</script>
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediamessages.styles%7Cjquery.makeCollapsible.styles%7Cskins.vector.icons%2Cstyles%7Cskins.vector.search.codex.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022">
+<script async="" src="/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022"></script>
+<meta name="ResourceLoaderDynamicStyles" content="">
+<link rel="stylesheet" href="/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022">
+<meta name="generator" content="MediaWiki 1.46.0-wmf.15">
+<meta name="referrer" content="origin">
+<meta name="referrer" content="origin-when-cross-origin">
+<meta name="robots" content="max-image-preview:standard">
+<meta name="format-detection" content="telephone=no">
+<meta name="viewport" content="width=1120">
+<meta property="og:title" content="Internet Protocol - Wikipedia">
+<meta property="og:type" content="website">
+<link rel="preconnect" href="//upload.wikimedia.org">
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Internet_Protocol&amp;action=edit">
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png">
+<link rel="icon" href="/static/favicon/wikipedia.ico">
+<link rel="search" type="application/opensearchdescription+xml" href="/w/rest.php/v1/search" title="Wikipedia (en)">
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd">
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Internet_Protocol">
+<link rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.en">
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom">
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+<link rel="dns-prefetch" href="auth.wikimedia.org">
+</head>
+<body class="skin--responsive skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject mw-editable page-Internet_Protocol rootpage-Internet_Protocol skin-vector-2022 action-view">
+<div id="mw-aria-live-region" class="mw-aria-live-region" aria-live="polite"></div><a class="mw-jump-link" href="#bodyContent">Jump to content</a>
+<div class="vector-header-container">
+	<header class="vector-header mw-header no-font-mode-scale">
+		<div class="vector-header-start">
+			<nav class="vector-main-menu-landmark" aria-label="Site">
+				
+<div id="vector-main-menu-dropdown" class="vector-dropdown vector-main-menu-dropdown vector-button-flush-left vector-button-flush-right"  title="Main menu" >
+	<input type="checkbox" id="vector-main-menu-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-main-menu-dropdown" class="vector-dropdown-checkbox "  aria-label="Main menu"  >
+	<label id="vector-main-menu-dropdown-label" for="vector-main-menu-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-menu mw-ui-icon-wikimedia-menu"></span>
+
+<span class="vector-dropdown-label-text">Main menu</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+				<div id="vector-main-menu-unpinned-container" class="vector-unpinned-container">
+		
+<div id="vector-main-menu" class="vector-main-menu vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-main-menu-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="main-menu-pinned"
+	data-pinnable-element-id="vector-main-menu"
+	data-pinned-container-id="vector-main-menu-pinned-container"
+	data-unpinned-container-id="vector-main-menu-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Main menu</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-main-menu.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-main-menu.unpin">hide</button>
+</div>
+
+	
+<div id="p-navigation" class="vector-menu mw-portlet mw-portlet-navigation"  >
+	<div class="vector-menu-heading">
+		Navigation
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-mainpage-description" class="mw-list-item"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z"><span>Main page</span></a></li><li id="n-contents" class="mw-list-item"><a href="/wiki/Wikipedia:Contents" title="Guides to browsing Wikipedia"><span>Contents</span></a></li><li id="n-currentevents" class="mw-list-item"><a href="/wiki/Portal:Current_events" title="Articles related to current events"><span>Current events</span></a></li><li id="n-randompage" class="mw-list-item"><a href="/wiki/Special:Random" title="Visit a randomly selected article [x]" accesskey="x"><span>Random article</span></a></li><li id="n-aboutsite" class="mw-list-item"><a href="/wiki/Wikipedia:About" title="Learn about Wikipedia and how it works"><span>About Wikipedia</span></a></li><li id="n-contactpage" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia"><span>Contact us</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-interaction" class="vector-menu mw-portlet mw-portlet-interaction"  >
+	<div class="vector-menu-heading">
+		Contribute
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="n-help" class="mw-list-item"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia"><span>Help</span></a></li><li id="n-introduction" class="mw-list-item"><a href="/wiki/Help:Introduction" title="Learn how to edit Wikipedia"><span>Learn to edit</span></a></li><li id="n-portal" class="mw-list-item"><a href="/wiki/Wikipedia:Community_portal" title="The hub for editors"><span>Community portal</span></a></li><li id="n-recentchanges" class="mw-list-item"><a href="/wiki/Special:RecentChanges" title="A list of recent changes to Wikipedia [r]" accesskey="r"><span>Recent changes</span></a></li><li id="n-upload" class="mw-list-item"><a href="/wiki/Wikipedia:File_upload_wizard" title="Add images or other media for use on Wikipedia"><span>Upload file</span></a></li><li id="n-specialpages" class="mw-list-item"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q"><span>Special pages</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+				</div>
+
+	</div>
+</div>
+
+		</nav>
+			
+<a href="/wiki/Main_Page" class="mw-logo">
+	<img class="mw-logo-icon" src="/static/images/icons/enwiki-25.svg" alt="" aria-hidden="true" height="50" width="50">
+	<span class="mw-logo-container skin-invert">
+		<img class="mw-logo-wordmark" alt="Wikipedia" src="/static/images/mobile/copyright/wikipedia-wordmark-en-25.svg" style="width: 8.75em; height: 1.375em;">
+		<img class="mw-logo-tagline" alt="The Free Encyclopedia" src="/static/images/mobile/copyright/wikipedia-tagline-en-25.svg" width="140" height="11" style="width: 8.75em; height: 0.6875em;">
+	</span>
+</a>
+
+		</div>
+		<div class="vector-header-end">
+			
+<div id="p-search" role="search" class="vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail vector-search-box-auto-expand-width vector-search-box">
+	<a href="/wiki/Special:Search" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only search-toggle" title="Search Wikipedia [f]" accesskey="f"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+	</a>
+	<div class="vector-typeahead-search-container">
+		<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width">
+			<form action="/w/index.php" id="searchform" class="cdx-search-input cdx-search-input--has-end-button">
+				<div id="simpleSearch" class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+					<div class="cdx-text-input cdx-text-input--has-start-icon">
+						<input
+							class="cdx-text-input__input mw-searchInput" autocomplete="off"
+							 type="search" name="search" placeholder="Search Wikipedia" aria-label="Search Wikipedia" autocapitalize="none" spellcheck="false" title="Search Wikipedia [f]" accesskey="f" id="searchInput"
+							>
+						<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+					</div>
+					<input type="hidden" name="title" value="Special:Search">
+				</div>
+				<button class="cdx-button cdx-search-input__end-button">Search</button>
+			</form>
+		</div>
+	</div>
+</div>
+
+			<nav class="vector-user-links vector-user-links-wide" aria-label="Personal tools">
+	<div class="vector-user-links-main">
+	
+<div id="p-vector-user-menu-preferences" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-userpage" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	<nav class="vector-appearance-landmark" aria-label="Appearance">
+		
+<div id="vector-appearance-dropdown" class="vector-dropdown "  title="Change the appearance of the page&#039;s font size, width, and color" >
+	<input type="checkbox" id="vector-appearance-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-appearance-dropdown" class="vector-dropdown-checkbox "  aria-label="Appearance"  >
+	<label id="vector-appearance-dropdown-label" for="vector-appearance-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-appearance mw-ui-icon-wikimedia-appearance"></span>
+
+<span class="vector-dropdown-label-text">Appearance</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+			<div id="vector-appearance-unpinned-container" class="vector-unpinned-container">
+				
+			</div>
+		
+	</div>
+</div>
+
+	</nav>
+	
+<div id="p-vector-user-menu-notifications" class="vector-menu mw-portlet emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+	
+<div id="p-vector-user-menu-overflow" class="vector-menu mw-portlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			<li id="pt-sitesupport-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw-interface  href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en" class=""><span>Donate</span></a>
+</li>
+<li id="pt-createaccount-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:CreateAccount&amp;returnto=Internet+Protocol" title="You are encouraged to create an account and log in; however, it is not mandatory" class=""><span>Create account</span></a>
+</li>
+<li id="pt-login-2" class="user-links-collapsible-item mw-list-item user-links-collapsible-item"><a data-mw-interface  href="/w/index.php?title=Special:UserLogin&amp;returnto=Internet+Protocol" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o" class=""><span>Log in</span></a>
+</li>
+
+			
+		</ul>
+		
+	</div>
+</div>
+
+	</div>
+	
+<div id="vector-user-links-dropdown" class="vector-dropdown vector-user-menu vector-button-flush-right vector-user-menu-logged-out user-links-collapsible-item"  title="Log in and more options" >
+	<input type="checkbox" id="vector-user-links-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-user-links-dropdown" class="vector-dropdown-checkbox "  aria-label="Personal tools"  >
+	<label id="vector-user-links-dropdown-label" for="vector-user-links-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis"></span>
+
+<span class="vector-dropdown-label-text">Personal tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+		
+<div id="p-personal" class="vector-menu mw-portlet mw-portlet-personal user-links-collapsible-item"  title="User menu" >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="pt-sitesupport" class="user-links-collapsible-item mw-list-item"><a href="https://donate.wikimedia.org/?wmf_source=donate&amp;wmf_medium=sidebar&amp;wmf_campaign=en.wikipedia.org&amp;uselang=en"><span>Donate</span></a></li><li id="pt-createaccount" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Internet+Protocol" title="You are encouraged to create an account and log in; however, it is not mandatory"><span class="vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd"></span> <span>Create account</span></a></li><li id="pt-login" class="user-links-collapsible-item mw-list-item"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Internet+Protocol" title="You&#039;re encouraged to log in; however, it&#039;s not mandatory. [o]" accesskey="o"><span class="vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn"></span> <span>Log in</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+	
+	</div>
+</div>
+
+</nav>
+
+		</div>
+	</header>
+</div>
+<div class="mw-page-container">
+	<div class="mw-page-container-inner">
+		<div class="vector-sitenotice-container">
+			<div id="siteNotice"><!-- CentralNotice --></div>
+		</div>
+		<div class="vector-column-start">
+			<div class="vector-main-menu-container">
+		<div id="mw-navigation">
+			<nav id="mw-panel" class="vector-main-menu-landmark" aria-label="Site">
+				<div id="vector-main-menu-pinned-container" class="vector-pinned-container">
+				
+				</div>
+		</nav>
+		</div>
+	</div>
+	<div class="vector-sticky-pinned-container">
+				<nav id="mw-panel-toc" aria-label="Contents" data-event-name="ui.sidebar-toc" class="mw-table-of-contents-container vector-toc-landmark">
+					<div id="vector-toc-pinned-container" class="vector-pinned-container">
+					<div id="vector-toc" class="vector-toc vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-toc-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="toc-pinned"
+	data-pinnable-element-id="vector-toc"
+	
+	
+>
+	<h2 class="vector-pinnable-header-label">Contents</h2>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-toc.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-toc.unpin">hide</button>
+</div>
+
+
+	<ul class="vector-toc-contents" id="mw-panel-toc-list">
+		<li id="toc-mw-content-text"
+			class="vector-toc-list-item vector-toc-level-1">
+			<a href="#" class="vector-toc-link">
+				<div class="vector-toc-text">(Top)</div>
+			</a>
+		</li>
+		<li id="toc-Function"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Function">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">1</span>
+				<span>Function</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Function-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Addressing_methods"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Addressing_methods">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">2</span>
+				<span>Addressing methods</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Addressing_methods-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Version_history"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Version_history">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">3</span>
+				<span>Version history</span>
+			</div>
+		</a>
+		
+			<button aria-controls="toc-Version_history-sublist" class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-toc-toggle">
+				<span class="vector-icon mw-ui-icon-wikimedia-expand"></span>
+				<span>Toggle Version history subsection</span>
+			</button>
+		
+		<ul id="toc-Version_history-sublist" class="vector-toc-list">
+			<li id="toc-IP_version_numbers"
+			class="vector-toc-list-item vector-toc-level-2">
+			<a class="vector-toc-link" href="#IP_version_numbers">
+				<div class="vector-toc-text">
+					<span class="vector-toc-numb">3.1</span>
+					<span>IP version numbers</span>
+				</div>
+			</a>
+			
+			<ul id="toc-IP_version_numbers-sublist" class="vector-toc-list">
+			</ul>
+		</li>
+	</ul>
+	</li>
+	<li id="toc-Reliability"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Reliability">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">4</span>
+				<span>Reliability</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Reliability-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Link_capacity_and_capability"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Link_capacity_and_capability">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">5</span>
+				<span>Link capacity and capability</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Link_capacity_and_capability-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-Security"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#Security">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">6</span>
+				<span>Security</span>
+			</div>
+		</a>
+		
+		<ul id="toc-Security-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-See_also"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#See_also">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">7</span>
+				<span>See also</span>
+			</div>
+		</a>
+		
+		<ul id="toc-See_also-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-References"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#References">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">8</span>
+				<span>References</span>
+			</div>
+		</a>
+		
+		<ul id="toc-References-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+	<li id="toc-External_links"
+		class="vector-toc-list-item vector-toc-level-1 vector-toc-list-item-expanded">
+		<a class="vector-toc-link" href="#External_links">
+			<div class="vector-toc-text">
+				<span class="vector-toc-numb">9</span>
+				<span>External links</span>
+			</div>
+		</a>
+		
+		<ul id="toc-External_links-sublist" class="vector-toc-list">
+		</ul>
+	</li>
+</ul>
+</div>
+
+					</div>
+		</nav>
+			</div>
+		</div>
+		<div class="mw-content-container">
+			<main id="content" class="mw-body">
+				<header class="mw-body-header vector-page-titlebar no-font-mode-scale">
+					<nav aria-label="Contents" class="vector-toc-landmark">
+						
+<div id="vector-page-titlebar-toc" class="vector-dropdown vector-page-titlebar-toc vector-button-flush-left"  title="Table of Contents" >
+	<input type="checkbox" id="vector-page-titlebar-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-titlebar-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+	<label id="vector-page-titlebar-toc-label" for="vector-page-titlebar-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+							<div id="vector-page-titlebar-toc-unpinned-container" class="vector-unpinned-container">
+			</div>
+		
+	</div>
+</div>
+
+					</nav>
+					<h1 id="firstHeading" class="firstHeading mw-first-heading"><span class="mw-page-title-main">Internet Protocol</span></h1>
+							
+<div id="p-lang-btn" class="vector-dropdown mw-portlet mw-portlet-lang"  >
+	<input type="checkbox" id="p-lang-btn-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-p-lang-btn" class="vector-dropdown-checkbox mw-interlanguage-selector" aria-label="Go to an article in another language. Available in 79 languages"   >
+	<label id="p-lang-btn-label" for="p-lang-btn-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive mw-portlet-lang-heading-79" aria-hidden="true"  ><span class="vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive"></span>
+
+<span class="vector-dropdown-label-text">79 languages</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+		<div class="vector-menu-content">
+			
+			<ul class="vector-menu-content-list">
+				
+				<li class="interlanguage-link interwiki-ast mw-list-item"><a href="https://ast.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Asturian" lang="ast" hreflang="ast" data-title="Internet Protocol" data-language-autonym="Asturianu" data-language-local-name="Asturian" class="interlanguage-link-target"><span>Asturianu</span></a></li><li class="interlanguage-link interwiki-be mw-list-item"><a href="https://be.wikipedia.org/wiki/IP" title="IP – Belarusian" lang="be" hreflang="be" data-title="IP" data-language-autonym="Беларуская" data-language-local-name="Belarusian" class="interlanguage-link-target"><span>Беларуская</span></a></li><li class="interlanguage-link interwiki-bg mw-list-item"><a href="https://bg.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Bulgarian" lang="bg" hreflang="bg" data-title="Internet Protocol" data-language-autonym="Български" data-language-local-name="Bulgarian" class="interlanguage-link-target"><span>Български</span></a></li><li class="interlanguage-link interwiki-bs mw-list-item"><a href="https://bs.wikipedia.org/wiki/Internet_protokol" title="Internet protokol – Bosnian" lang="bs" hreflang="bs" data-title="Internet protokol" data-language-autonym="Bosanski" data-language-local-name="Bosnian" class="interlanguage-link-target"><span>Bosanski</span></a></li><li class="interlanguage-link interwiki-ca mw-list-item"><a href="https://ca.wikipedia.org/wiki/Protocol_d%27Internet" title="Protocol d&#039;Internet – Catalan" lang="ca" hreflang="ca" data-title="Protocol d&#039;Internet" data-language-autonym="Català" data-language-local-name="Catalan" class="interlanguage-link-target"><span>Català</span></a></li><li class="interlanguage-link interwiki-da mw-list-item"><a href="https://da.wikipedia.org/wiki/Internetprotokol" title="Internetprotokol – Danish" lang="da" hreflang="da" data-title="Internetprotokol" data-language-autonym="Dansk" data-language-local-name="Danish" class="interlanguage-link-target"><span>Dansk</span></a></li><li class="interlanguage-link interwiki-de mw-list-item"><a href="https://de.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – German" lang="de" hreflang="de" data-title="Internet Protocol" data-language-autonym="Deutsch" data-language-local-name="German" class="interlanguage-link-target"><span>Deutsch</span></a></li><li class="interlanguage-link interwiki-eo mw-list-item"><a href="https://eo.wikipedia.org/wiki/IP" title="IP – Esperanto" lang="eo" hreflang="eo" data-title="IP" data-language-autonym="Esperanto" data-language-local-name="Esperanto" class="interlanguage-link-target"><span>Esperanto</span></a></li><li class="interlanguage-link interwiki-et mw-list-item"><a href="https://et.wikipedia.org/wiki/Internetiprotokoll" title="Internetiprotokoll – Estonian" lang="et" hreflang="et" data-title="Internetiprotokoll" data-language-autonym="Eesti" data-language-local-name="Estonian" class="interlanguage-link-target"><span>Eesti</span></a></li><li class="interlanguage-link interwiki-fr mw-list-item"><a href="https://fr.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – French" lang="fr" hreflang="fr" data-title="Internet Protocol" data-language-autonym="Français" data-language-local-name="French" class="interlanguage-link-target"><span>Français</span></a></li><li class="interlanguage-link interwiki-gl mw-list-item"><a href="https://gl.wikipedia.org/wiki/Protocolo_de_Internet" title="Protocolo de Internet – Galician" lang="gl" hreflang="gl" data-title="Protocolo de Internet" data-language-autonym="Galego" data-language-local-name="Galician" class="interlanguage-link-target"><span>Galego</span></a></li><li class="interlanguage-link interwiki-he mw-list-item"><a href="https://he.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Hebrew" lang="he" hreflang="he" data-title="Internet Protocol" data-language-autonym="עברית" data-language-local-name="Hebrew" class="interlanguage-link-target"><span>עברית</span></a></li><li class="interlanguage-link interwiki-hr mw-list-item"><a href="https://hr.wikipedia.org/wiki/Internetski_protokol" title="Internetski protokol – Croatian" lang="hr" hreflang="hr" data-title="Internetski protokol" data-language-autonym="Hrvatski" data-language-local-name="Croatian" class="interlanguage-link-target"><span>Hrvatski</span></a></li><li class="interlanguage-link interwiki-hu mw-list-item"><a href="https://hu.wikipedia.org/wiki/Internetprotokoll" title="Internetprotokoll – Hungarian" lang="hu" hreflang="hu" data-title="Internetprotokoll" data-language-autonym="Magyar" data-language-local-name="Hungarian" class="interlanguage-link-target"><span>Magyar</span></a></li><li class="interlanguage-link interwiki-id mw-list-item"><a href="https://id.wikipedia.org/wiki/Protokol_Internet" title="Protokol Internet – Indonesian" lang="id" hreflang="id" data-title="Protokol Internet" data-language-autonym="Bahasa Indonesia" data-language-local-name="Indonesian" class="interlanguage-link-target"><span>Bahasa Indonesia</span></a></li><li class="interlanguage-link interwiki-is mw-list-item"><a href="https://is.wikipedia.org/wiki/IP-samskiptareglur" title="IP-samskiptareglur – Icelandic" lang="is" hreflang="is" data-title="IP-samskiptareglur" data-language-autonym="Íslenska" data-language-local-name="Icelandic" class="interlanguage-link-target"><span>Íslenska</span></a></li><li class="interlanguage-link interwiki-it mw-list-item"><a href="https://it.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Italian" lang="it" hreflang="it" data-title="Internet Protocol" data-language-autonym="Italiano" data-language-local-name="Italian" class="interlanguage-link-target"><span>Italiano</span></a></li><li class="interlanguage-link interwiki-ja mw-list-item"><a href="https://ja.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Japanese" lang="ja" hreflang="ja" data-title="Internet Protocol" data-language-autonym="日本語" data-language-local-name="Japanese" class="interlanguage-link-target"><span>日本語</span></a></li><li class="interlanguage-link interwiki-ka mw-list-item"><a href="https://ka.wikipedia.org/wiki/%E1%83%98%E1%83%9C%E1%83%A2%E1%83%94%E1%83%A0%E1%83%9C%E1%83%94%E1%83%A2_%E1%83%9D%E1%83%A5%E1%83%9B%E1%83%98" title="ინტერნეტ ოქმი – Georgian" lang="ka" hreflang="ka" data-title="ინტერნეტ ოქმი" data-language-autonym="ქართული" data-language-local-name="Georgian" class="interlanguage-link-target"><span>ქართული</span></a></li><li class="interlanguage-link interwiki-kn mw-list-item"><a href="https://kn.wikipedia.org/wiki/%E0%B2%85%E0%B2%82%E0%B2%A4%E0%B2%B0%E0%B2%9C%E0%B2%BE%E0%B2%B2_%E0%B2%B6%E0%B2%BF%E0%B2%B7%E0%B3%8D%E0%B2%9F%E0%B2%BE%E0%B2%9A%E0%B2%BE%E0%B2%B0_(Internet_Protocol)" title="ಅಂತರಜಾಲ ಶಿಷ್ಟಾಚಾರ (Internet Protocol) – Kannada" lang="kn" hreflang="kn" data-title="ಅಂತರಜಾಲ ಶಿಷ್ಟಾಚಾರ (Internet Protocol)" data-language-autonym="ಕನ್ನಡ" data-language-local-name="Kannada" class="interlanguage-link-target"><span>ಕನ್ನಡ</span></a></li><li class="interlanguage-link interwiki-ko mw-list-item"><a href="https://ko.wikipedia.org/wiki/%EC%9D%B8%ED%84%B0%EB%84%B7_%ED%94%84%EB%A1%9C%ED%86%A0%EC%BD%9C" title="인터넷 프로토콜 – Korean" lang="ko" hreflang="ko" data-title="인터넷 프로토콜" data-language-autonym="한국어" data-language-local-name="Korean" class="interlanguage-link-target"><span>한국어</span></a></li><li class="interlanguage-link interwiki-la mw-list-item"><a href="https://la.wikipedia.org/wiki/Protocollum_interretiale" title="Protocollum interretiale – Latin" lang="la" hreflang="la" data-title="Protocollum interretiale" data-language-autonym="Latina" data-language-local-name="Latin" class="interlanguage-link-target"><span>Latina</span></a></li><li class="interlanguage-link interwiki-lo mw-list-item"><a href="https://lo.wikipedia.org/wiki/%E0%BA%AD%E0%BA%B4%E0%BA%99%E0%BB%80%E0%BA%95%E0%BA%B5%E0%BA%A3%E0%BB%8C%E0%BB%80%E0%BA%99%E0%BA%B1%E0%BA%95_%E0%BB%82%E0%BA%9B%E0%BA%A3%E0%BB%82%E0%BA%95%E0%BB%82%E0%BA%84%E0%BA%A5" title="ອິນເຕີຣ໌ເນັຕ ໂປຣໂຕໂຄລ – Lao" lang="lo" hreflang="lo" data-title="ອິນເຕີຣ໌ເນັຕ ໂປຣໂຕໂຄລ" data-language-autonym="ລາວ" data-language-local-name="Lao" class="interlanguage-link-target"><span>ລາວ</span></a></li><li class="interlanguage-link interwiki-lv mw-list-item"><a href="https://lv.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Latvian" lang="lv" hreflang="lv" data-title="Internet Protocol" data-language-autonym="Latviešu" data-language-local-name="Latvian" class="interlanguage-link-target"><span>Latviešu</span></a></li><li class="interlanguage-link interwiki-ml mw-list-item"><a href="https://ml.wikipedia.org/wiki/%E0%B4%87%E0%B4%A8%E0%B5%8D%E0%B4%B1%E0%B5%BC%E0%B4%A8%E0%B5%86%E0%B4%B1%E0%B5%8D%E0%B4%B1%E0%B5%8D_%E0%B4%AA%E0%B5%8D%E0%B4%B0%E0%B5%8B%E0%B4%9F%E0%B5%8D%E0%B4%9F%E0%B5%8B%E0%B4%95%E0%B5%8D%E0%B4%95%E0%B5%8B%E0%B5%BE" title="ഇന്റർനെറ്റ് പ്രോട്ടോക്കോൾ – Malayalam" lang="ml" hreflang="ml" data-title="ഇന്റർനെറ്റ് പ്രോട്ടോക്കോൾ" data-language-autonym="മലയാളം" data-language-local-name="Malayalam" class="interlanguage-link-target"><span>മലയാളം</span></a></li><li class="interlanguage-link interwiki-new mw-list-item"><a href="https://new.wikipedia.org/wiki/%E0%A4%85%E0%A4%A8%E0%A5%8D%E0%A4%A4%E0%A4%B0%E0%A4%9C%E0%A4%BE%E0%A4%B2_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE" title="अन्तरजाल नियम – Newari" lang="new" hreflang="new" data-title="अन्तरजाल नियम" data-language-autonym="नेपाल भाषा" data-language-local-name="Newari" class="interlanguage-link-target"><span>नेपाल भाषा</span></a></li><li class="interlanguage-link interwiki-nl mw-list-item"><a href="https://nl.wikipedia.org/wiki/Internetprotocol" title="Internetprotocol – Dutch" lang="nl" hreflang="nl" data-title="Internetprotocol" data-language-autonym="Nederlands" data-language-local-name="Dutch" class="interlanguage-link-target"><span>Nederlands</span></a></li><li class="interlanguage-link interwiki-nn mw-list-item"><a href="https://nn.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Norwegian Nynorsk" lang="nn" hreflang="nn" data-title="Internet Protocol" data-language-autonym="Norsk nynorsk" data-language-local-name="Norwegian Nynorsk" class="interlanguage-link-target"><span>Norsk nynorsk</span></a></li><li class="interlanguage-link interwiki-no mw-list-item"><a href="https://no.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Norwegian Bokmål" lang="nb" hreflang="nb" data-title="Internet Protocol" data-language-autonym="Norsk bokmål" data-language-local-name="Norwegian Bokmål" class="interlanguage-link-target"><span>Norsk bokmål</span></a></li><li class="interlanguage-link interwiki-pl mw-list-item"><a href="https://pl.wikipedia.org/wiki/Protok%C3%B3%C5%82_internetowy" title="Protokół internetowy – Polish" lang="pl" hreflang="pl" data-title="Protokół internetowy" data-language-autonym="Polski" data-language-local-name="Polish" class="interlanguage-link-target"><span>Polski</span></a></li><li class="interlanguage-link interwiki-pms mw-list-item"><a href="https://pms.wikipedia.org/wiki/IP" title="IP – Piedmontese" lang="pms" hreflang="pms" data-title="IP" data-language-autonym="Piemontèis" data-language-local-name="Piedmontese" class="interlanguage-link-target"><span>Piemontèis</span></a></li><li class="interlanguage-link interwiki-pt mw-list-item"><a href="https://pt.wikipedia.org/wiki/Protocolo_de_Internet" title="Protocolo de Internet – Portuguese" lang="pt" hreflang="pt" data-title="Protocolo de Internet" data-language-autonym="Português" data-language-local-name="Portuguese" class="interlanguage-link-target"><span>Português</span></a></li><li class="interlanguage-link interwiki-ru mw-list-item"><a href="https://ru.wikipedia.org/wiki/IP" title="IP – Russian" lang="ru" hreflang="ru" data-title="IP" data-language-autonym="Русский" data-language-local-name="Russian" class="interlanguage-link-target"><span>Русский</span></a></li><li class="interlanguage-link interwiki-sh mw-list-item"><a href="https://sh.wikipedia.org/wiki/Internet-protokol" title="Internet-protokol – Serbo-Croatian" lang="sh" hreflang="sh" data-title="Internet-protokol" data-language-autonym="Srpskohrvatski / српскохрватски" data-language-local-name="Serbo-Croatian" class="interlanguage-link-target"><span>Srpskohrvatski / српскохрватски</span></a></li><li class="interlanguage-link interwiki-si mw-list-item"><a href="https://si.wikipedia.org/wiki/%E0%B6%85%E0%B6%B1%E0%B7%8A%E0%B6%AD%E0%B6%BB%E0%B7%8A%E0%B6%A2%E0%B7%8F%E0%B6%BD_%E0%B6%B4%E0%B7%8A%E2%80%8D%E0%B6%BB%E0%B7%9C%E0%B6%A7%E0%B7%9D%E0%B6%9A%E0%B7%9D%E0%B6%BD%E0%B6%BA" title="අන්තර්ජාල ප්‍රොටෝකෝලය – Sinhala" lang="si" hreflang="si" data-title="අන්තර්ජාල ප්‍රොටෝකෝලය" data-language-autonym="සිංහල" data-language-local-name="Sinhala" class="interlanguage-link-target"><span>සිංහල</span></a></li><li class="interlanguage-link interwiki-simple mw-list-item"><a href="https://simple.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Simple English" lang="en-simple" hreflang="en-simple" data-title="Internet Protocol" data-language-autonym="Simple English" data-language-local-name="Simple English" class="interlanguage-link-target"><span>Simple English</span></a></li><li class="interlanguage-link interwiki-sk mw-list-item"><a href="https://sk.wikipedia.org/wiki/Internetov%C3%BD_protokol" title="Internetový protokol – Slovak" lang="sk" hreflang="sk" data-title="Internetový protokol" data-language-autonym="Slovenčina" data-language-local-name="Slovak" class="interlanguage-link-target"><span>Slovenčina</span></a></li><li class="interlanguage-link interwiki-so mw-list-item"><a href="https://so.wikipedia.org/wiki/Internet_protocol" title="Internet protocol – Somali" lang="so" hreflang="so" data-title="Internet protocol" data-language-autonym="Soomaaliga" data-language-local-name="Somali" class="interlanguage-link-target"><span>Soomaaliga</span></a></li><li class="interlanguage-link interwiki-sq mw-list-item"><a href="https://sq.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Albanian" lang="sq" hreflang="sq" data-title="Internet Protocol" data-language-autonym="Shqip" data-language-local-name="Albanian" class="interlanguage-link-target"><span>Shqip</span></a></li><li class="interlanguage-link interwiki-sr mw-list-item"><a href="https://sr.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82_%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB" title="Интернет протокол – Serbian" lang="sr" hreflang="sr" data-title="Интернет протокол" data-language-autonym="Српски / srpski" data-language-local-name="Serbian" class="interlanguage-link-target"><span>Српски / srpski</span></a></li><li class="interlanguage-link interwiki-su mw-list-item"><a href="https://su.wikipedia.org/wiki/Protokol_Internet" title="Protokol Internet – Sundanese" lang="su" hreflang="su" data-title="Protokol Internet" data-language-autonym="Sunda" data-language-local-name="Sundanese" class="interlanguage-link-target"><span>Sunda</span></a></li><li class="interlanguage-link interwiki-sv mw-list-item"><a href="https://sv.wikipedia.org/wiki/Internetprotokoll" title="Internetprotokoll – Swedish" lang="sv" hreflang="sv" data-title="Internetprotokoll" data-language-autonym="Svenska" data-language-local-name="Swedish" class="interlanguage-link-target"><span>Svenska</span></a></li><li class="interlanguage-link interwiki-ta mw-list-item"><a href="https://ta.wikipedia.org/wiki/%E0%AE%87%E0%AE%A3%E0%AF%88%E0%AE%AF_%E0%AE%A8%E0%AF%86%E0%AE%B1%E0%AE%BF%E0%AE%AE%E0%AF%81%E0%AE%B1%E0%AF%88" title="இணைய நெறிமுறை – Tamil" lang="ta" hreflang="ta" data-title="இணைய நெறிமுறை" data-language-autonym="தமிழ்" data-language-local-name="Tamil" class="interlanguage-link-target"><span>தமிழ்</span></a></li><li class="interlanguage-link interwiki-th mw-list-item"><a href="https://th.wikipedia.org/wiki/%E0%B8%AD%E0%B8%B4%E0%B8%99%E0%B9%80%E0%B8%97%E0%B8%AD%E0%B8%A3%E0%B9%8C%E0%B9%80%E0%B8%99%E0%B9%87%E0%B8%95%E0%B9%82%E0%B8%9E%E0%B8%A3%E0%B9%82%E0%B8%97%E0%B8%84%E0%B8%AD%E0%B8%A5" title="อินเทอร์เน็ตโพรโทคอล – Thai" lang="th" hreflang="th" data-title="อินเทอร์เน็ตโพรโทคอล" data-language-autonym="ไทย" data-language-local-name="Thai" class="interlanguage-link-target"><span>ไทย</span></a></li><li class="interlanguage-link interwiki-uk mw-list-item"><a href="https://uk.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Ukrainian" lang="uk" hreflang="uk" data-title="Internet Protocol" data-language-autonym="Українська" data-language-local-name="Ukrainian" class="interlanguage-link-target"><span>Українська</span></a></li><li class="interlanguage-link interwiki-ur mw-list-item"><a href="https://ur.wikipedia.org/wiki/%D8%AF%D8%B3%D8%AA%D9%88%D8%B1_%D8%AC%D8%A7%D9%84%D8%A8%DB%8C%D9%86" title="دستور جالبین – Urdu" lang="ur" hreflang="ur" data-title="دستور جالبین" data-language-autonym="اردو" data-language-local-name="Urdu" class="interlanguage-link-target"><span>اردو</span></a></li><li class="interlanguage-link interwiki-yi mw-list-item"><a href="https://yi.wikipedia.org/wiki/%D7%90%D7%99%D7%A0%D7%98%D7%A2%D7%A8%D7%A0%D7%A2%D7%98_%D7%A4%D7%A8%D7%90%D7%98%D7%90%D7%A7%D7%90%D7%9C" title="אינטערנעט פראטאקאל – Yiddish" lang="yi" hreflang="yi" data-title="אינטערנעט פראטאקאל" data-language-autonym="ייִדיש" data-language-local-name="Yiddish" class="interlanguage-link-target"><span>ייִדיש</span></a></li><li class="interlanguage-link interwiki-zh mw-list-item"><a href="https://zh.wikipedia.org/wiki/%E7%BD%91%E9%99%85%E5%8D%8F%E8%AE%AE" title="网际协议 – Chinese" lang="zh" hreflang="zh" data-title="网际协议" data-language-autonym="中文" data-language-local-name="Chinese" class="interlanguage-link-target"><span>中文</span></a></li><li class="interlanguage-link interwiki-zh-yue mw-list-item"><a href="https://zh-yue.wikipedia.org/wiki/%E7%B6%B2%E9%9A%9B%E5%8D%94%E8%AD%B0" title="網際協議 – Cantonese" lang="yue" hreflang="yue" data-title="網際協議" data-language-autonym="粵語" data-language-local-name="Cantonese" class="interlanguage-link-target"><span>粵語</span></a></li><li class="interlanguage-link interwiki-be-x-old mw-list-item"><a href="https://be-tarask.wikipedia.org/wiki/IP" title="IP – Belarusian (Taraškievica orthography)" lang="be-tarask" hreflang="be-tarask" data-title="IP" data-language-autonym="Беларуская (тарашкевіца)" data-language-local-name="Belarusian (Taraškievica orthography)" class="interlanguage-link-target"><span>Беларуская (тарашкевіца)</span></a></li><li class="interlanguage-link interwiki-gu mw-list-item"><a href="https://gu.wikipedia.org/wiki/%E0%AA%88%E0%AA%A8%E0%AB%8D%E0%AA%9F%E0%AA%B0%E0%AA%A8%E0%AB%87%E0%AA%9F_%E0%AA%AA%E0%AB%8D%E0%AA%B0%E0%AB%8B%E0%AA%9F%E0%AB%8B%E0%AA%95%E0%AB%8B%E0%AA%B2" title="ઈન્ટરનેટ પ્રોટોકોલ – Gujarati" lang="gu" hreflang="gu" data-title="ઈન્ટરનેટ પ્રોટોકોલ" data-language-autonym="ગુજરાતી" data-language-local-name="Gujarati" class="interlanguage-link-target"><span>ગુજરાતી</span></a></li><li class="interlanguage-link interwiki-hi mw-list-item"><a href="https://hi.wikipedia.org/wiki/%E0%A4%85%E0%A4%82%E0%A4%A4%E0%A4%B0%E0%A4%9C%E0%A4%BE%E0%A4%B2_%E0%A4%A8%E0%A4%BF%E0%A4%AF%E0%A4%AE%E0%A4%BE%E0%A4%B5%E0%A4%B2%E0%A5%80" title="अंतरजाल नियमावली – Hindi" lang="hi" hreflang="hi" data-title="अंतरजाल नियमावली" data-language-autonym="हिन्दी" data-language-local-name="Hindi" class="interlanguage-link-target"><span>हिन्दी</span></a></li><li class="interlanguage-link interwiki-ky mw-list-item"><a href="https://ky.wikipedia.org/wiki/IP" title="IP – Kyrgyz" lang="ky" hreflang="ky" data-title="IP" data-language-autonym="Кыргызча" data-language-local-name="Kyrgyz" class="interlanguage-link-target"><span>Кыргызча</span></a></li><li class="interlanguage-link interwiki-ms mw-list-item"><a href="https://ms.wikipedia.org/wiki/Protokol_Internet" title="Protokol Internet – Malay" lang="ms" hreflang="ms" data-title="Protokol Internet" data-language-autonym="Bahasa Melayu" data-language-local-name="Malay" class="interlanguage-link-target"><span>Bahasa Melayu</span></a></li><li class="interlanguage-link interwiki-mn mw-list-item"><a href="https://mn.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Mongolian" lang="mn" hreflang="mn" data-title="Internet Protocol" data-language-autonym="Монгол" data-language-local-name="Mongolian" class="interlanguage-link-target"><span>Монгол</span></a></li><li class="interlanguage-link interwiki-tl mw-list-item"><a href="https://tl.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Tagalog" lang="tl" hreflang="tl" data-title="Internet Protocol" data-language-autonym="Tagalog" data-language-local-name="Tagalog" class="interlanguage-link-target"><span>Tagalog</span></a></li><li class="interlanguage-link interwiki-mk mw-list-item"><a href="https://mk.wikipedia.org/wiki/%D0%98%D0%BD%D1%82%D0%B5%D1%80%D0%BD%D0%B5%D1%82-%D0%BF%D1%80%D0%BE%D1%82%D0%BE%D0%BA%D0%BE%D0%BB" title="Интернет-протокол – Macedonian" lang="mk" hreflang="mk" data-title="Интернет-протокол" data-language-autonym="Македонски" data-language-local-name="Macedonian" class="interlanguage-link-target"><span>Македонски</span></a></li><li class="interlanguage-link interwiki-zh-min-nan mw-list-item"><a href="https://zh-min-nan.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Minnan" lang="nan" hreflang="nan" data-title="Internet Protocol" data-language-autonym="閩南語 / Bân-lâm-gí" data-language-local-name="Minnan" class="interlanguage-link-target"><span>閩南語 / Bân-lâm-gí</span></a></li><li class="interlanguage-link interwiki-ro mw-list-item"><a href="https://ro.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Romanian" lang="ro" hreflang="ro" data-title="Internet Protocol" data-language-autonym="Română" data-language-local-name="Romanian" class="interlanguage-link-target"><span>Română</span></a></li><li class="interlanguage-link interwiki-vi mw-list-item"><a href="https://vi.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Vietnamese" lang="vi" hreflang="vi" data-title="Internet Protocol" data-language-autonym="Tiếng Việt" data-language-local-name="Vietnamese" class="interlanguage-link-target"><span>Tiếng Việt</span></a></li><li class="interlanguage-link interwiki-tr mw-list-item"><a href="https://tr.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Turkish" lang="tr" hreflang="tr" data-title="Internet Protocol" data-language-autonym="Türkçe" data-language-local-name="Turkish" class="interlanguage-link-target"><span>Türkçe</span></a></li><li class="interlanguage-link interwiki-es mw-list-item"><a href="https://es.wikipedia.org/wiki/Protocolo_de_internet" title="Protocolo de internet – Spanish" lang="es" hreflang="es" data-title="Protocolo de internet" data-language-autonym="Español" data-language-local-name="Spanish" class="interlanguage-link-target"><span>Español</span></a></li><li class="interlanguage-link interwiki-wuu mw-list-item"><a href="https://wuu.wikipedia.org/wiki/%E7%BD%91%E9%99%85%E5%8D%8F%E8%AE%AE" title="网际协议 – Wu" lang="wuu" hreflang="wuu" data-title="网际协议" data-language-autonym="吴语" data-language-local-name="Wu" class="interlanguage-link-target"><span>吴语</span></a></li><li class="interlanguage-link interwiki-el mw-list-item"><a href="https://el.wikipedia.org/wiki/%CE%A0%CF%81%CF%89%CF%84%CF%8C%CE%BA%CE%BF%CE%BB%CE%BB%CE%BF_%CE%94%CE%B9%CE%B1%CE%B4%CE%B9%CE%BA%CF%84%CF%8D%CE%BF%CF%85" title="Πρωτόκολλο Διαδικτύου – Greek" lang="el" hreflang="el" data-title="Πρωτόκολλο Διαδικτύου" data-language-autonym="Ελληνικά" data-language-local-name="Greek" class="interlanguage-link-target"><span>Ελληνικά</span></a></li><li class="interlanguage-link interwiki-ar mw-list-item"><a href="https://ar.wikipedia.org/wiki/%D8%A8%D8%B1%D9%88%D8%AA%D9%88%D9%83%D9%88%D9%84_%D8%A7%D9%84%D8%A5%D9%86%D8%AA%D8%B1%D9%86%D8%AA" title="بروتوكول الإنترنت – Arabic" lang="ar" hreflang="ar" data-title="بروتوكول الإنترنت" data-language-autonym="العربية" data-language-local-name="Arabic" class="interlanguage-link-target"><span>العربية</span></a></li><li class="interlanguage-link interwiki-yo mw-list-item"><a href="https://yo.wikipedia.org/wiki/Pr%C3%B3t%C3%B3k%C3%B3%C3%B2l%C3%B9_%C3%8Dnt%C3%A1n%E1%BA%B9%CC%81%E1%BA%B9%CC%80t%C3%AC" title="Prótókóòlù Íntánẹ́ẹ̀tì – Yoruba" lang="yo" hreflang="yo" data-title="Prótókóòlù Íntánẹ́ẹ̀tì" data-language-autonym="Yorùbá" data-language-local-name="Yoruba" class="interlanguage-link-target"><span>Yorùbá</span></a></li><li class="interlanguage-link interwiki-lmo mw-list-item"><a href="https://lmo.wikipedia.org/wiki/Internet_Protocol" title="Internet Protocol – Lombard" lang="lmo" hreflang="lmo" data-title="Internet Protocol" data-language-autonym="Lombard" data-language-local-name="Lombard" class="interlanguage-link-target"><span>Lombard</span></a></li><li class="interlanguage-link interwiki-cs mw-list-item"><a href="https://cs.wikipedia.org/wiki/Internetov%C3%BD_protokol" title="Internetový protokol – Czech" lang="cs" hreflang="cs" data-title="Internetový protokol" data-language-autonym="Čeština" data-language-local-name="Czech" class="interlanguage-link-target"><span>Čeština</span></a></li><li class="interlanguage-link interwiki-af mw-list-item"><a href="https://af.wikipedia.org/wiki/Internetprotokol" title="Internetprotokol – Afrikaans" lang="af" hreflang="af" data-title="Internetprotokol" data-language-autonym="Afrikaans" data-language-local-name="Afrikaans" class="interlanguage-link-target"><span>Afrikaans</span></a></li><li class="interlanguage-link interwiki-fi mw-list-item"><a href="https://fi.wikipedia.org/wiki/IP" title="IP – Finnish" lang="fi" hreflang="fi" data-title="IP" data-language-autonym="Suomi" data-language-local-name="Finnish" class="interlanguage-link-target"><span>Suomi</span></a></li><li class="interlanguage-link interwiki-az mw-list-item"><a href="https://az.wikipedia.org/wiki/%C4%B0nternet_protokolu" title="İnternet protokolu – Azerbaijani" lang="az" hreflang="az" data-title="İnternet protokolu" data-language-autonym="Azərbaycanca" data-language-local-name="Azerbaijani" class="interlanguage-link-target"><span>Azərbaycanca</span></a></li><li class="interlanguage-link interwiki-bn mw-list-item"><a href="https://bn.wikipedia.org/wiki/%E0%A6%87%E0%A6%A8%E0%A7%8D%E0%A6%9F%E0%A6%BE%E0%A6%B0%E0%A6%A8%E0%A7%87%E0%A6%9F_%E0%A6%AA%E0%A7%8D%E0%A6%B0%E0%A7%8B%E0%A6%9F%E0%A7%8B%E0%A6%95%E0%A6%B2" title="ইন্টারনেট প্রোটোকল – Bangla" lang="bn" hreflang="bn" data-title="ইন্টারনেট প্রোটোকল" data-language-autonym="বাংলা" data-language-local-name="Bangla" class="interlanguage-link-target"><span>বাংলা</span></a></li><li class="interlanguage-link interwiki-kaa mw-list-item"><a href="https://kaa.wikipedia.org/wiki/IP" title="IP – Kara-Kalpak" lang="kaa" hreflang="kaa" data-title="IP" data-language-autonym="Qaraqalpaqsha" data-language-local-name="Kara-Kalpak" class="interlanguage-link-target"><span>Qaraqalpaqsha</span></a></li><li class="interlanguage-link interwiki-zu mw-list-item"><a href="https://zu.wikipedia.org/wiki/IGumelo_loxhakaxholo" title="IGumelo loxhakaxholo – Zulu" lang="zu" hreflang="zu" data-title="IGumelo loxhakaxholo" data-language-autonym="IsiZulu" data-language-local-name="Zulu" class="interlanguage-link-target"><span>IsiZulu</span></a></li><li class="interlanguage-link interwiki-io mw-list-item"><a href="https://io.wikipedia.org/wiki/Interretala_protokolo" title="Interretala protokolo – Ido" lang="io" hreflang="io" data-title="Interretala protokolo" data-language-autonym="Ido" data-language-local-name="Ido" class="interlanguage-link-target"><span>Ido</span></a></li><li class="interlanguage-link interwiki-fa mw-list-item"><a href="https://fa.wikipedia.org/wiki/%D8%A2%DB%8C%E2%80%8C%D9%BE%DB%8C" title="آی‌پی – Persian" lang="fa" hreflang="fa" data-title="آی‌پی" data-language-autonym="فارسی" data-language-local-name="Persian" class="interlanguage-link-target"><span>فارسی</span></a></li><li class="interlanguage-link interwiki-eu mw-list-item"><a href="https://eu.wikipedia.org/wiki/Internet_Protokolo" title="Internet Protokolo – Basque" lang="eu" hreflang="eu" data-title="Internet Protokolo" data-language-autonym="Euskara" data-language-local-name="Basque" class="interlanguage-link-target"><span>Euskara</span></a></li><li class="interlanguage-link interwiki-hy mw-list-item"><a href="https://hy.wikipedia.org/wiki/Internet_protocol" title="Internet protocol – Armenian" lang="hy" hreflang="hy" data-title="Internet protocol" data-language-autonym="Հայերեն" data-language-local-name="Armenian" class="interlanguage-link-target"><span>Հայերեն</span></a></li><li class="interlanguage-link interwiki-xmf mw-list-item"><a href="https://xmf.wikipedia.org/wiki/Internet_protocol" title="Internet protocol – Mingrelian" lang="xmf" hreflang="xmf" data-title="Internet protocol" data-language-autonym="მარგალური" data-language-local-name="Mingrelian" class="interlanguage-link-target"><span>მარგალური</span></a></li>
+			</ul>
+			<div class="after-portlet after-portlet-lang"><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8795#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>
+		</div>
+
+	</div>
+</div>
+</header>
+				<div class="vector-page-toolbar vector-feature-custom-font-size-clientpref--excluded">
+					<div class="vector-page-toolbar-container">
+						<div id="left-navigation">
+							<nav aria-label="Namespaces">
+								
+<div id="p-associated-pages" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-associated-pages"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-nstab-main" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Internet_Protocol" title="View the content page [c]" accesskey="c"><span>Article</span></a></li><li id="ca-talk" class="vector-tab-noicon mw-list-item"><a href="/wiki/Talk:Internet_Protocol" rel="discussion" title="Discuss improvements to the content page [t]" accesskey="t"><span>Talk</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+								
+<div id="vector-variants-dropdown" class="vector-dropdown emptyPortlet"  >
+	<input type="checkbox" id="vector-variants-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-variants-dropdown" class="vector-dropdown-checkbox " aria-label="Change language variant"   >
+	<label id="vector-variants-dropdown-label" for="vector-variants-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">English</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+					
+<div id="p-variants" class="vector-menu mw-portlet mw-portlet-variants emptyPortlet"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			
+		</ul>
+		
+	</div>
+</div>
+
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+						<div id="right-navigation" class="vector-collapsible">
+							<nav aria-label="Views">
+								
+<div id="p-views" class="vector-menu vector-menu-tabs mw-portlet mw-portlet-views"  >
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-view" class="selected vector-tab-noicon mw-list-item"><a href="/wiki/Internet_Protocol"><span>Read</span></a></li><li id="ca-edit" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-history" class="vector-tab-noicon mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;action=history" title="Past revisions of this page [h]" accesskey="h"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+							</nav>
+				
+							<nav class="vector-page-tools-landmark" aria-label="Page tools">
+								
+<div id="vector-page-tools-dropdown" class="vector-dropdown vector-page-tools-dropdown"  >
+	<input type="checkbox" id="vector-page-tools-dropdown-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-page-tools-dropdown" class="vector-dropdown-checkbox "  aria-label="Tools"  >
+	<label id="vector-page-tools-dropdown-label" for="vector-page-tools-dropdown-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet" aria-hidden="true"  ><span class="vector-dropdown-label-text">Tools</span>
+	</label>
+	<div class="vector-dropdown-content">
+
+
+									<div id="vector-page-tools-unpinned-container" class="vector-unpinned-container">
+						
+<div id="vector-page-tools" class="vector-page-tools vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-page-tools-pinnable-header vector-pinnable-header-unpinned"
+	data-feature-name="page-tools-pinned"
+	data-pinnable-element-id="vector-page-tools"
+	data-pinned-container-id="vector-page-tools-pinned-container"
+	data-unpinned-container-id="vector-page-tools-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Tools</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-page-tools.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-page-tools.unpin">hide</button>
+</div>
+
+	
+<div id="p-cactions" class="vector-menu mw-portlet mw-portlet-cactions emptyPortlet vector-has-collapsible-items"  title="More options" >
+	<div class="vector-menu-heading">
+		Actions
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="ca-more-view" class="selected vector-more-collapsible-item mw-list-item"><a href="/wiki/Internet_Protocol"><span>Read</span></a></li><li id="ca-more-edit" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;action=edit" title="Edit this page [e]" accesskey="e"><span>Edit</span></a></li><li id="ca-more-history" class="vector-more-collapsible-item mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;action=history"><span>View history</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-tb" class="vector-menu mw-portlet mw-portlet-tb"  >
+	<div class="vector-menu-heading">
+		General
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="t-whatlinkshere" class="mw-list-item"><a href="/wiki/Special:WhatLinksHere/Internet_Protocol" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j"><span>What links here</span></a></li><li id="t-recentchangeslinked" class="mw-list-item"><a href="/wiki/Special:RecentChangesLinked/Internet_Protocol" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k"><span>Related changes</span></a></li><li id="t-upload" class="mw-list-item"><a href="//en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u"><span>Upload file</span></a></li><li id="t-permalink" class="mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;oldid=1338688847" title="Permanent link to this revision of this page"><span>Permanent link</span></a></li><li id="t-info" class="mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;action=info" title="More information about this page"><span>Page information</span></a></li><li id="t-cite" class="mw-list-item"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Internet_Protocol&amp;id=1338688847&amp;wpFormIdentifier=titleform" title="Information on how to cite this page"><span>Cite this page</span></a></li><li id="t-urlshortener" class="mw-list-item"><a href="/w/index.php?title=Special:UrlShortener&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternet_Protocol"><span>Get shortened URL</span></a></li><li id="t-urlshortener-qrcode" class="mw-list-item"><a href="/w/index.php?title=Special:QrCode&amp;url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInternet_Protocol"><span>Download QR code</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-coll-print_export" class="vector-menu mw-portlet mw-portlet-coll-print_export"  >
+	<div class="vector-menu-heading">
+		Print/export
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li id="coll-download-as-rl" class="mw-list-item"><a href="/w/index.php?title=Special:DownloadAsPdf&amp;page=Internet_Protocol&amp;action=show-download-screen" title="Download this page as a PDF file"><span>Download as PDF</span></a></li><li id="t-print" class="mw-list-item"><a href="/w/index.php?title=Internet_Protocol&amp;printable=yes" title="Printable version of this page [p]" accesskey="p"><span>Printable version</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+<div id="p-wikibase-otherprojects" class="vector-menu mw-portlet mw-portlet-wikibase-otherprojects"  >
+	<div class="vector-menu-heading">
+		In other projects
+	</div>
+	<div class="vector-menu-content">
+		
+		<ul class="vector-menu-content-list">
+			
+			<li class="wb-otherproject-link wb-otherproject-commons mw-list-item"><a href="https://commons.wikimedia.org/wiki/Category:Internet_Protocol" hreflang="en"><span>Wikimedia Commons</span></a></li><li id="t-wikibase" class="wb-otherproject-link wb-otherproject-wikibase-dataitem mw-list-item"><a href="https://www.wikidata.org/wiki/Special:EntityPage/Q8795" title="Structured data on this page hosted by Wikidata [g]" accesskey="g"><span>Wikidata item</span></a></li>
+		</ul>
+		
+	</div>
+</div>
+
+</div>
+
+									</div>
+				
+	</div>
+</div>
+
+							</nav>
+						</div>
+					</div>
+				</div>
+				<div class="vector-column-end no-font-mode-scale">
+					<div class="vector-sticky-pinned-container">
+						<div class="wp25eastereggs-vector-sitenotice-landmark"></div>
+						<nav class="vector-page-tools-landmark" aria-label="Page tools">
+							<div id="vector-page-tools-pinned-container" class="vector-pinned-container">
+				
+							</div>
+		</nav>
+						<nav class="vector-appearance-landmark" aria-label="Appearance">
+							<div id="vector-appearance-pinned-container" class="vector-pinned-container">
+				<div id="vector-appearance" class="vector-appearance vector-pinnable-element">
+	<div
+	class="vector-pinnable-header vector-appearance-pinnable-header vector-pinnable-header-pinned"
+	data-feature-name="appearance-pinned"
+	data-pinnable-element-id="vector-appearance"
+	data-pinned-container-id="vector-appearance-pinned-container"
+	data-unpinned-container-id="vector-appearance-unpinned-container"
+>
+	<div class="vector-pinnable-header-label">Appearance</div>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-pin-button" data-event-name="pinnable-header.vector-appearance.pin">move to sidebar</button>
+	<button class="vector-pinnable-header-toggle-button vector-pinnable-header-unpin-button" data-event-name="pinnable-header.vector-appearance.unpin">hide</button>
+</div>
+
+
+</div>
+
+							</div>
+		</nav>
+					</div>
+				</div>
+				<div id="bodyContent" class="vector-body" aria-labelledby="firstHeading" data-mw-ve-target-container>
+					<div class="vector-body-before-content">
+							<div class="mw-indicators">
+		</div>
+
+						<div id="siteSub" class="noprint">From Wikipedia, the free encyclopedia</div>
+					</div>
+					<div id="contentSub"><div id="mw-content-subtitle"></div></div>
+					
+					
+					<div id="mw-content-text" class="mw-body-content"><div class="mw-subjectpageheader">
+</div><div class="mw-content-ltr mw-parser-output" lang="en" dir="ltr"><div class="shortdescription nomobile noexcerpt noprint searchaux" style="display:none">Communication protocol that allows connections between networks</div>
+<p class="mw-empty-elt">
+</p>
+<style data-mw-deduplicate="TemplateStyles:r1333133064">.mw-parser-output .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:": "}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:"\a0 · ";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output .hlist li li:first-child::before{content:" (";font-weight:normal}.mw-parser-output .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output .hlist li li:last-child::after{content:")";font-weight:normal}.mw-parser-output .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output .hlist ol>li::before{content:" "counter(listitem)"\a0 "}.mw-parser-output .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output .hlist li ol>li:first-child::before{content:" ("counter(listitem)"\a0 "}</style><style data-mw-deduplicate="TemplateStyles:r1246091330">.mw-parser-output .sidebar{width:22em;float:right;clear:right;margin:0.5em 0 1em 1em;background:var(--background-color-neutral-subtle,#f8f9fa);border:1px solid var(--border-color-base,#a2a9b1);padding:0.2em;text-align:center;line-height:1.4em;font-size:88%;border-collapse:collapse;display:table}body.skin-minerva .mw-parser-output .sidebar{display:table!important;float:right!important;margin:0.5em 0 1em 1em!important}.mw-parser-output .sidebar-subgroup{width:100%;margin:0;border-spacing:0}.mw-parser-output .sidebar-left{float:left;clear:left;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-none{float:none;clear:both;margin:0.5em 1em 1em 0}.mw-parser-output .sidebar-outer-title{padding:0 0.4em 0.2em;font-size:125%;line-height:1.2em;font-weight:bold}.mw-parser-output .sidebar-top-image{padding:0.4em}.mw-parser-output .sidebar-top-caption,.mw-parser-output .sidebar-pretitle-with-top-image,.mw-parser-output .sidebar-caption{padding:0.2em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-pretitle{padding:0.4em 0.4em 0;line-height:1.2em}.mw-parser-output .sidebar-title,.mw-parser-output .sidebar-title-with-pretitle{padding:0.2em 0.8em;font-size:145%;line-height:1.2em}.mw-parser-output .sidebar-title-with-pretitle{padding:0.1em 0.4em}.mw-parser-output .sidebar-image{padding:0.2em 0.4em 0.4em}.mw-parser-output .sidebar-heading{padding:0.1em 0.4em}.mw-parser-output .sidebar-content{padding:0 0.5em 0.4em}.mw-parser-output .sidebar-content-with-subgroup{padding:0.1em 0.4em 0.2em}.mw-parser-output .sidebar-above,.mw-parser-output .sidebar-below{padding:0.3em 0.8em;font-weight:bold}.mw-parser-output .sidebar-collapse .sidebar-above,.mw-parser-output .sidebar-collapse .sidebar-below{border-top:1px solid #aaa;border-bottom:1px solid #aaa}.mw-parser-output .sidebar-navbar{text-align:right;font-size:115%;padding:0 0.4em 0.4em}.mw-parser-output .sidebar-list-title{padding:0 0.4em;text-align:left;font-weight:bold;line-height:1.6em;font-size:105%}.mw-parser-output .sidebar-list-title-c{padding:0 0.4em;text-align:center;margin:0 3.3em}@media(max-width:640px){body.mediawiki .mw-parser-output .sidebar{width:100%!important;clear:both;float:none!important;margin-left:0!important;margin-right:0!important}}body.skin--responsive .mw-parser-output .sidebar a>img{max-width:none!important}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-night .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-list-title,html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle{background:transparent!important}html.skin-theme-clientpref-os .mw-parser-output .sidebar:not(.notheme) .sidebar-title-with-pretitle a{color:var(--color-progressive)!important}}@media print{body.ns-0 .mw-parser-output .sidebar{display:none!important}}</style><table class="sidebar nomobile nowraplinks hlist" role="navigation"><tbody><tr><th class="sidebar-title"><a href="/wiki/Internet_protocol_suite" title="Internet protocol suite">Internet protocol suite</a></th></tr><tr><th class="sidebar-heading">
+<a href="/wiki/Application_layer" title="Application layer">Application layer</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/Border_Gateway_Protocol" title="Border Gateway Protocol">BGP</a></li>
+<li><a href="/wiki/Dynamic_Host_Configuration_Protocol" title="Dynamic Host Configuration Protocol">DHCP</a> (<a href="/wiki/DHCPv6" title="DHCPv6">v6</a>)</li>
+<li><a href="/wiki/Domain_Name_System" title="Domain Name System">DNS</a></li>
+<li><a href="/wiki/File_Transfer_Protocol" title="File Transfer Protocol">FTP</a></li>
+<li><a href="/wiki/HTTP" title="HTTP">HTTP</a>&#160;(<a href="/wiki/HTTP/3" title="HTTP/3">HTTP/3</a>)</li>
+<li><a href="/wiki/HTTPS" title="HTTPS">HTTPS</a></li>
+<li><a href="/wiki/Internet_Message_Access_Protocol" title="Internet Message Access Protocol">IMAP</a></li>
+<li><a href="/wiki/Internet_Printing_Protocol" title="Internet Printing Protocol">IPP</a></li>
+<li><a href="/wiki/IRC" title="IRC">IRC</a></li>
+<li><a href="/wiki/Lightweight_Directory_Access_Protocol" title="Lightweight Directory Access Protocol">LDAP</a></li>
+<li><a href="/wiki/Media_Gateway_Control_Protocol" title="Media Gateway Control Protocol">MGCP</a></li>
+<li><a href="/wiki/MQTT" title="MQTT">MQTT</a></li>
+<li><a href="/wiki/Network_News_Transfer_Protocol" title="Network News Transfer Protocol">NNTP</a></li>
+<li><a href="/wiki/Network_Time_Protocol" title="Network Time Protocol">NTP</a></li>
+<li><a href="/wiki/Open_Shortest_Path_First" title="Open Shortest Path First">OSPF</a></li>
+<li><a href="/wiki/Post_Office_Protocol" title="Post Office Protocol">POP</a></li>
+<li><a href="/wiki/Precision_Time_Protocol" title="Precision Time Protocol">PTP</a></li>
+<li><a href="/wiki/Open_Network_Computing_Remote_Procedure_Call" class="mw-redirect" title="Open Network Computing Remote Procedure Call">ONC/RPC</a></li>
+<li><a href="/wiki/Real-time_Transport_Protocol" title="Real-time Transport Protocol">RTP</a></li>
+<li><a href="/wiki/Real-Time_Streaming_Protocol" title="Real-Time Streaming Protocol">RTSP</a></li>
+<li><a href="/wiki/Routing_Information_Protocol" title="Routing Information Protocol">RIP</a></li>
+<li><a href="/wiki/Session_Initiation_Protocol" title="Session Initiation Protocol">SIP</a></li>
+<li><a href="/wiki/Simple_Mail_Transfer_Protocol" title="Simple Mail Transfer Protocol">SMTP</a></li>
+<li><a href="/wiki/Simple_Network_Management_Protocol" title="Simple Network Management Protocol">SNMP</a></li>
+<li><a href="/wiki/Secure_Shell" title="Secure Shell">SSH</a></li>
+<li><a href="/wiki/Telnet" title="Telnet">Telnet</a></li>
+<li><a href="/wiki/Transport_Layer_Security" title="Transport Layer Security">TLS/SSL</a></li>
+<li><a href="/wiki/XMPP" title="XMPP">XMPP</a></li>
+<li><a href="/wiki/Category:Application_layer_protocols" title="Category:Application layer protocols"><i>more...</i></a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/Transport_layer" title="Transport layer">Transport layer</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">TCP</a></li>
+<li><a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">UDP</a></li>
+<li><a href="/wiki/Datagram_Congestion_Control_Protocol" title="Datagram Congestion Control Protocol">DCCP</a></li>
+<li><a href="/wiki/Stream_Control_Transmission_Protocol" title="Stream Control Transmission Protocol">SCTP</a></li>
+<li><a href="/wiki/Resource_Reservation_Protocol" title="Resource Reservation Protocol">RSVP</a></li>
+<li><a href="/wiki/QUIC" title="QUIC">QUIC</a></li>
+<li><a href="/wiki/Category:Transport_layer_protocols" title="Category:Transport layer protocols"><i>more...</i></a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/Internet_layer" title="Internet layer">Internet layer</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a class="mw-selflink selflink">IP</a>
+<ul><li><a href="/wiki/IPv4" title="IPv4">v4</a></li>
+<li><a href="/wiki/IPv6" title="IPv6">v6</a></li></ul></li>
+<li><a href="/wiki/Internet_Control_Message_Protocol" title="Internet Control Message Protocol">ICMP</a> (<a href="/wiki/ICMPv6" title="ICMPv6">v6</a>)</li>
+<li><a href="/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">NDP</a></li>
+<li><a href="/wiki/Explicit_Congestion_Notification" title="Explicit Congestion Notification">ECN</a></li>
+<li><a href="/wiki/L4S" title="L4S">L4S</a></li>
+<li><a href="/wiki/Internet_Group_Management_Protocol" title="Internet Group Management Protocol">IGMP</a></li>
+<li><a href="/wiki/IPsec" title="IPsec">IPsec</a></li>
+<li><a href="/wiki/Category:Internet_layer_protocols" title="Category:Internet layer protocols"><i>more...</i></a></li></ul></td>
+</tr><tr><th class="sidebar-heading">
+<a href="/wiki/Link_layer" title="Link layer">Link layer</a></th></tr><tr><td class="sidebar-content">
+<ul><li><a href="/wiki/Address_Resolution_Protocol" title="Address Resolution Protocol">ARP</a></li>
+<li><a href="/wiki/Tunneling_protocol" title="Tunneling protocol">Tunnels</a></li>
+<li><a href="/wiki/Point-to-Point_Protocol" title="Point-to-Point Protocol">PPP</a></li>
+<li><a href="/wiki/Medium_access_control" title="Medium access control">MAC</a></li>
+<li><a href="/wiki/Category:Link_protocols" title="Category:Link protocols"><i>more...</i></a></li></ul></td>
+</tr><tr><td class="sidebar-navbar"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><style data-mw-deduplicate="TemplateStyles:r1239400231">.mw-parser-output .navbar{display:inline;font-size:88%;font-weight:normal}.mw-parser-output .navbar-collapse{float:left;text-align:left}.mw-parser-output .navbar-boxtext{word-spacing:0}.mw-parser-output .navbar ul{display:inline-block;white-space:nowrap;line-height:inherit}.mw-parser-output .navbar-brackets::before{margin-right:-0.125em;content:"[ "}.mw-parser-output .navbar-brackets::after{margin-left:-0.125em;content:" ]"}.mw-parser-output .navbar li{word-spacing:-0.125em}.mw-parser-output .navbar a>span,.mw-parser-output .navbar a>abbr{text-decoration:inherit}.mw-parser-output .navbar-mini abbr{font-variant:small-caps;border-bottom:none;text-decoration:none;cursor:inherit}.mw-parser-output .navbar-ct-full{font-size:114%;margin:0 7em}.mw-parser-output .navbar-ct-mini{font-size:114%;margin:0 4em}html.skin-theme-clientpref-night .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}@media(prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .navbar li a abbr{color:var(--color-base)!important}}@media print{.mw-parser-output .navbar{display:none!important}}</style><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:Internet_protocol_suite" title="Template:Internet protocol suite"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:Internet_protocol_suite" title="Template talk:Internet protocol suite"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:Internet_protocol_suite" title="Special:EditPage/Template:Internet protocol suite"><abbr title="Edit this template">e</abbr></a></li></ul></div></td></tr></tbody></table>
+<p>The <b>Internet Protocol</b> (<b>IP</b>) is the <a href="/wiki/Network_layer" title="Network layer">network layer</a> <a href="/wiki/Communications_protocol" class="mw-redirect" title="Communications protocol">communications protocol</a> in the <a href="/wiki/Internet_protocol_suite" title="Internet protocol suite">Internet protocol suite</a> for relaying <a href="/wiki/Datagram" title="Datagram">datagrams</a> across network boundaries. Its <a href="/wiki/Routing" title="Routing">routing</a> function enables <a href="/wiki/Internetworking" title="Internetworking">internetworking</a>, and essentially establishes the <a href="/wiki/Internet" title="Internet">Internet</a>.
+</p><p>IP has the task of delivering <a href="/wiki/Packet_(information_technology)" class="mw-redirect" title="Packet (information technology)">packets</a> from the source <a href="/wiki/Host_(network)" title="Host (network)">host</a> to the destination host solely based on the <a href="/wiki/IP_address" title="IP address">IP addresses</a> in the packet <a href="/wiki/Header_(computing)" title="Header (computing)">headers</a>. For this purpose, IP defines packet structures that <a href="/wiki/Encapsulation_(networking)" title="Encapsulation (networking)">encapsulate</a> the data to be delivered. It also defines addressing methods that are used to label the datagram with source and destination information.
+IP was the <a href="/wiki/Connectionless" class="mw-redirect" title="Connectionless">connectionless</a> datagram service in the original <i><a href="/wiki/Transmission_Control_Program" class="mw-redirect" title="Transmission Control Program">Transmission Control Program</a></i> introduced by <a href="/wiki/Vint_Cerf" title="Vint Cerf">Vint Cerf</a> and <a href="/wiki/Bob_Kahn" class="mw-redirect" title="Bob Kahn">Bob Kahn</a> in 1974, which was complemented by a <a href="/wiki/Connection-oriented" class="mw-redirect" title="Connection-oriented">connection-oriented</a> service that became the basis for the <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">Transmission Control Protocol</a> (TCP). The Internet protocol suite is therefore often referred to as <i>TCP/IP</i>.
+</p><p>The first major version of IP, <a href="/wiki/Internet_Protocol_version_4" class="mw-redirect" title="Internet Protocol version 4">Internet Protocol version 4</a> (IPv4), is the dominant protocol of the Internet. Its successor is <a href="/wiki/Internet_Protocol_version_6" class="mw-redirect" title="Internet Protocol version 6">Internet Protocol version 6</a> (IPv6), which has been in increasing <a href="/wiki/IPv6_deployment" title="IPv6 deployment">deployment</a> on the public Internet since around 2006.<sup id="cite&#95;ref-1" class="reference"><a href="#cite_note-1"><span class="cite-bracket">&#91;</span>1<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<meta property="mw:PageProp/toc" />
+<div class="mw-heading mw-heading2"><h2 id="Function">Function</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=1" title="Edit section: Function"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<figure typeof="mw:File/Thumb"><a href="/wiki/File:UDP_encapsulation.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/330px-UDP_encapsulation.svg.png" decoding="async" width="260" height="163" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/500px-UDP_encapsulation.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/3/3b/UDP_encapsulation.svg/960px-UDP_encapsulation.svg.png 2x" data-file-width="800" data-file-height="500" /></a><figcaption>Encapsulation of application data carried by <a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">UDP</a> to a link protocol frame</figcaption></figure>
+<p>The Internet Protocol is responsible for addressing <a href="/wiki/Host_interface" class="mw-redirect" title="Host interface">host interfaces</a>, encapsulating data into datagrams (including <a href="/wiki/IP_fragmentation" title="IP fragmentation">fragmentation and reassembly</a>) and routing datagrams from a source host interface to a destination host interface across one or more IP networks.<b><sup id="cite&#95;ref-2" class="reference"><a href="#cite_note-2"><span class="cite-bracket">&#91;</span>2<span class="cite-bracket">&#93;</span></a></sup></b> For these purposes, the Internet Protocol defines the format of packets and provides an addressing system.
+</p><p>Each datagram has two components: a <a href="/wiki/Header_(computing)" title="Header (computing)">header</a> and a <a href="/wiki/Payload_(computing)" title="Payload (computing)">payload</a>. The <a href="/wiki/IP_header" title="IP header">IP header</a> includes a source IP address, a destination IP address, and other metadata needed to route and deliver the datagram. The payload is the data that is transported. This method of nesting the data payload in a packet with a header is called encapsulation.
+</p><p>IP addressing entails the assignment of IP addresses and associated parameters to host interfaces. The address space is divided into <a href="/wiki/Subnet" title="Subnet">subnets</a>, involving the designation of network prefixes. IP routing is performed by all hosts, as well as <a href="/wiki/Router_(computing)" title="Router (computing)">routers</a>, whose main function is to transport packets across network boundaries. Routers communicate with one another via specially designed <a href="/wiki/Routing_protocol" title="Routing protocol">routing protocols</a>, either <a href="/wiki/Interior_gateway_protocol" title="Interior gateway protocol">interior gateway protocols</a> or <a href="/wiki/Exterior_gateway_protocol" title="Exterior gateway protocol">exterior gateway protocols</a>, as needed for the topology of the network.<sup id="cite&#95;ref-3" class="reference"><a href="#cite_note-3"><span class="cite-bracket">&#91;</span>3<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Addressing_methods">Addressing methods</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=2" title="Edit section: Addressing methods"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<table style="float:right; clear:both; margin:1em; padding:0; border:thin solid #000; text-align:center;">
+
+<tbody><tr>
+<th style="background-color:#ddd; color:#00F12; border-bottom:thin solid #999;"><a href="/wiki/Routing#Delivery_schemes" title="Routing">Routing schemes</a>
+</th></tr>
+<tr>
+<th style="border-bottom:thin solid #999;"><a href="/wiki/Unicast" title="Unicast">Unicast</a>
+<p><span typeof="mw:File"><a href="/wiki/Unicast" title="Unicast"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Unicast.svg/120px-Unicast.svg.png" decoding="async" width="100" height="67" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/75/Unicast.svg/250px-Unicast.svg.png 1.5x" data-file-width="1125" data-file-height="750" /></a></span>
+</p>
+</th></tr>
+<tr>
+<th style="border-bottom:thin solid #999;"><a href="/wiki/Broadcasting_(networking)" title="Broadcasting (networking)">Broadcast</a>
+<p><span typeof="mw:File"><a href="/wiki/Broadcasting_(networking)" title="Broadcasting (networking)"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Broadcast.svg/120px-Broadcast.svg.png" decoding="async" width="100" height="67" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Broadcast.svg/250px-Broadcast.svg.png 1.5x" data-file-width="1125" data-file-height="750" /></a></span>
+</p>
+</th></tr>
+<tr>
+<th style="border-bottom:thin solid #999;"><a href="/wiki/Multicast" title="Multicast">Multicast</a>
+<p><span typeof="mw:File"><a href="/wiki/Multicast" title="Multicast"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Multicast.svg/120px-Multicast.svg.png" decoding="async" width="100" height="67" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/30/Multicast.svg/250px-Multicast.svg.png 1.5x" data-file-width="1125" data-file-height="750" /></a></span>
+</p>
+</th></tr>
+<tr>
+<th><a href="/wiki/Anycast" title="Anycast">Anycast</a>
+<p><span typeof="mw:File"><a href="/wiki/Anycast" title="Anycast"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Anycast-BM.svg/120px-Anycast-BM.svg.png" decoding="async" width="100" height="67" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/18/Anycast-BM.svg/250px-Anycast-BM.svg.png 1.5x" data-file-width="1200" data-file-height="800" /></a></span>
+</p>
+</th></tr></tbody></table>
+<p>There are four principal addressing methods in the Internet Protocol:
+</p>
+<ul><li><a href="/wiki/Unicast" title="Unicast">Unicast</a> delivers a message to a single specific node using a <i>one-to-one</i> association between a sender and destination: each destination address uniquely identifies a single receiver endpoint.</li>
+<li><a href="/wiki/Broadcasting_(networking)" title="Broadcasting (networking)">Broadcast</a> delivers a message to all nodes in the network using a <i>one-to-all</i> association; a single <a href="/wiki/Datagram" title="Datagram">datagram</a> (or <a href="/wiki/Packet_(information_technology)" class="mw-redirect" title="Packet (information technology)">packet</a>) from one sender is routed to all of the possibly multiple endpoints associated with the <a href="/wiki/Broadcast_address" title="Broadcast address">broadcast address</a>. The network automatically replicates datagrams as needed to reach all the recipients within the scope of the broadcast, which is generally an entire network <a href="/wiki/Subnetwork" class="mw-redirect" title="Subnetwork">subnet</a>.</li>
+<li><a href="/wiki/Multicast" title="Multicast">Multicast</a> delivers a message to a group of nodes that have expressed interest in receiving the message using a <i>one-to-many-of-many</i> or <i>many-to-many-of-many</i> association; datagrams are routed simultaneously in a single transmission to many recipients. Multicast differs from broadcast in that the destination address designates a subset, not necessarily all, of the accessible nodes.</li>
+<li><a href="/wiki/Anycast" title="Anycast">Anycast</a> delivers a message to any one out of a group of nodes, typically the one nearest to the source using a <i>one-to-one-of-many</i><sup id="cite&#95;ref-4" class="reference"><a href="#cite_note-4"><span class="cite-bracket">&#91;</span>4<span class="cite-bracket">&#93;</span></a></sup> association where datagrams are routed to any single member of a group of potential receivers that are all identified by the same destination address.  The routing algorithm selects the single receiver from the group based on which is the nearest according to some distance or cost measure.</li></ul>
+<div class="mw-heading mw-heading2"><h2 id="Version_history">Version history</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=3" title="Edit section: Version history"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<figure class="mw-default-size mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:TCP_and_IP_protocols_development_timeline-en.svg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TCP_and_IP_protocols_development_timeline-en.svg/250px-TCP_and_IP_protocols_development_timeline-en.svg.png" decoding="async" width="250" height="98" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/3/3e/TCP_and_IP_protocols_development_timeline-en.svg/500px-TCP_and_IP_protocols_development_timeline-en.svg.png 1.5x" data-file-width="794" data-file-height="310" /></a><figcaption>A timeline for the development of the transmission control Protocol TCP and Internet Protocol IP</figcaption></figure>
+<figure class="mw-default-size mw-halign-right" typeof="mw:File/Thumb"><a href="/wiki/File:First_Internet_Demonstration,_1977.jpg" class="mw-file-description"><img src="//upload.wikimedia.org/wikipedia/commons/thumb/1/13/First_Internet_Demonstration%2C_1977.jpg/250px-First_Internet_Demonstration%2C_1977.jpg" decoding="async" width="250" height="173" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/13/First_Internet_Demonstration%2C_1977.jpg/500px-First_Internet_Demonstration%2C_1977.jpg 1.5x" data-file-width="800" data-file-height="554" /></a><figcaption>First Internet demonstration, linking the <a href="/wiki/ARPANET" title="ARPANET">ARPANET</a>, <a href="/wiki/PRNET" title="PRNET">PRNET</a>, and <a href="/wiki/SATNET" title="SATNET">SATNET</a> on November 22, 1977</figcaption></figure>
+<p>In May 1974, the <a href="/wiki/Institute_of_Electrical_and_Electronics_Engineers" title="Institute of Electrical and Electronics Engineers">Institute of Electrical and Electronics Engineers</a> (IEEE) published a paper entitled "A Protocol for Packet Network Intercommunication".<sup id="cite&#95;ref-5" class="reference"><a href="#cite_note-5"><span class="cite-bracket">&#91;</span>5<span class="cite-bracket">&#93;</span></a></sup> The paper's authors, <a href="/wiki/Vint_Cerf" title="Vint Cerf">Vint Cerf</a> and <a href="/wiki/Bob_Kahn" class="mw-redirect" title="Bob Kahn">Bob Kahn</a>, described an <a href="/wiki/Internetworking" title="Internetworking">internetworking</a> protocol for sharing resources using <a href="/wiki/Packet_switching" title="Packet switching">packet switching</a> among <a href="/wiki/Network_node" class="mw-redirect" title="Network node">network nodes</a>. A central control component of this model was the Transmission Control Program that incorporated both connection-oriented links and datagram services between hosts. The monolithic Transmission Control Program was later divided into a modular architecture consisting of the <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">Transmission Control Protocol</a> and <a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">User Datagram Protocol</a> at the <a href="/wiki/Transport_layer" title="Transport layer">transport layer</a> and the Internet Protocol at the <a href="/wiki/Internet_layer" title="Internet layer">internet layer</a>. The model became known as the <i>Department of Defense (DoD) Internet Model</i> and <i><a href="/wiki/Internet_protocol_suite" title="Internet protocol suite">Internet protocol suite</a></i>, and informally as <i>TCP/IP</i>.
+</p><p>The following <a href="/wiki/Internet_Experiment_Note" title="Internet Experiment Note">Internet Experiment Note</a> (IEN) documents describe the evolution of the Internet Protocol into the modern version of IPv4:<sup id="cite&#95;ref-6" class="reference"><a href="#cite_note-6"><span class="cite-bracket">&#91;</span>6<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<ul><li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien2.txt">IEN 2</a> <i>Comments on Internet Protocol and TCP (</i>August 1977) describes the need to separate the TCP and Internet Protocol functionalities (which were previously combined).  It proposes the first version of the IP header, using 0 for the version field.</li>
+<li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien26.pdf">IEN 26</a> <i>A Proposed New Internet Header Format (</i>February 1978) describes a version of the IP header that uses a 1-bit version field.</li>
+<li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien28.pdf">IEN 28</a> <i>Draft Internetwork Protocol Description Version 2 (</i>February 1978) describes IPv2.</li>
+<li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien41.pdf">IEN 41</a> <i>Internetwork Protocol Specification Version 4 (</i>June 1978) describes the first protocol to be called IPv4.  The IP header is different from the modern IPv4 header.</li>
+<li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien44.pdf">IEN 44</a> <i>Latest Header Formats (</i>June 1978) describes another version of IPv4, also with a header different from the modern IPv4 header.</li>
+<li><a rel="nofollow" class="external text" href="http://www.rfc-editor.org/ien/ien54.pdf">IEN 54</a> <i>Internetwork Protocol Specification Version 4 (</i>September 1978) is the first description of IPv4 using the header that would become standardized in 1980 as <style data-mw-deduplicate="TemplateStyles:r1333433106">.mw-parser-output cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation q{quotes:"\"""\"""'""'"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output .id-lock-free.id-lock-free a{background:url("//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited.id-lock-limited a,.mw-parser-output .id-lock-registration.id-lock-registration a{background:url("//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription.id-lock-subscription a{background:url("//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg")right 0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url("//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg")right 0.1em center/12px no-repeat}body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-free a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-limited a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-registration a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .id-lock-subscription a,body:not(.skin-timeless):not(.skin-minerva) .mw-parser-output .cs1-ws-icon a{background-size:contain;padding:0 1em 0 0}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output .cs1-hidden-error{display:none;color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-visible-error{color:var(--color-error,#bf3c2c)}.mw-parser-output .cs1-maint{display:none;color:#085;margin-left:0.3em}.mw-parser-output .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output .citation .mw-selflink{font-weight:inherit}@media screen{.mw-parser-output .cs1-format{font-size:95%}html.skin-theme-clientpref-night .mw-parser-output .cs1-maint{color:#18911f}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .cs1-maint{color:#18911f}}</style><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc760">760</a>.</li>
+<li>IEN 80</li>
+<li>IEN 111</li>
+<li>IEN 123</li>
+<li>IEN 128/RFC 760 (1980)</li></ul>
+<p>IP versions 1 to 3 were experimental versions, designed between 1973 and 1978.<sup id="cite&#95;ref-Coty&#95;7-0" class="reference"><a href="#cite_note-Coty-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup> Versions 2 and 3 supported variable-length addresses ranging between 1 and 16 octets (between 8 and 128 bits).<sup id="cite&#95;ref-8" class="reference"><a href="#cite_note-8"><span class="cite-bracket">&#91;</span>8<span class="cite-bracket">&#93;</span></a></sup> An early draft of version 4 supported variable-length addresses of up to 256 octets (up to 2048 bits)<sup id="cite&#95;ref-9" class="reference"><a href="#cite_note-9"><span class="cite-bracket">&#91;</span>9<span class="cite-bracket">&#93;</span></a></sup> but this was later abandoned in favor of a fixed-size 32-bit address in the final version of <a href="/wiki/IPv4" title="IPv4">IPv4</a>. This remains the dominant internetworking protocol in use in the <a href="/wiki/Internet_Layer" class="mw-redirect" title="Internet Layer">Internet Layer</a>; the number 4 identifies the protocol version, carried in every IP datagram. IPv4 is defined in <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc791">791</a> (1981).
+</p><p>Version number 5 was used by the <a href="/wiki/Internet_Stream_Protocol" title="Internet Stream Protocol">Internet Stream Protocol</a>, an experimental streaming protocol that was not adopted.<sup id="cite&#95;ref-Coty&#95;7-1" class="reference"><a href="#cite_note-Coty-7"><span class="cite-bracket">&#91;</span>7<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>The successor to IPv4 is <a href="/wiki/IPv6" title="IPv6">IPv6</a>. IPv6 was a result of several years of experimentation and dialog during which various protocol models were proposed, such as TP/IX (<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1475">1475</a>), PIP (<link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1621">1621</a>) and TUBA (TCP and UDP with Bigger Addresses, <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1347">1347</a>). Its most prominent difference from version 4 is the size of the addresses. While IPv4 uses <a href="/wiki/32_bits" class="mw-redirect" title="32 bits">32 bits</a> for addressing, yielding c. 4.3 <a href="/wiki/1,000,000,000_(number)" class="mw-redirect" title="1,000,000,000 (number)">billion</a> (<span class="nowrap"><span data-sort-value="7009430000000000000♠"></span>4.3<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>9</sup></span>) addresses, IPv6 uses <a href="/wiki/128-bit" class="mw-redirect" title="128-bit">128-bit</a> addresses providing c. <span class="nowrap"><span data-sort-value="7038340000000000000♠"></span>3.4<span style="margin-left:0.25em;margin-right:0.15em;">×</span>10<sup>38</sup></span> addresses. Although adoption of IPv6 has been slow, as of January&#160;2023<sup class="plainlinks noexcerpt noprint asof-tag update" style="display:none;"><a class="external text" href="https://en.wikipedia.org/w/index.php?title=Internet_Protocol&amp;action=edit">&#91;update&#93;</a></sup>, most countries in the world show significant adoption of IPv6,<sup id="cite&#95;ref-10" class="reference"><a href="#cite_note-10"><span class="cite-bracket">&#91;</span>10<span class="cite-bracket">&#93;</span></a></sup> with over 41% of Google's traffic being carried over IPv6 connections.<sup id="cite&#95;ref-11" class="reference"><a href="#cite_note-11"><span class="cite-bracket">&#91;</span>11<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>The assignment of the new protocol as IPv6 was uncertain until due diligence assured that IPv6 had not been used previously.<sup id="cite&#95;ref-12" class="reference"><a href="#cite_note-12"><span class="cite-bracket">&#91;</span>12<span class="cite-bracket">&#93;</span></a></sup> Other Internet Layer protocols have been assigned version numbers,<sup id="cite&#95;ref-13" class="reference"><a href="#cite_note-13"><span class="cite-bracket">&#91;</span>13<span class="cite-bracket">&#93;</span></a></sup> such as 7 (<i>IP/TX</i>), 8 and 9 (<i>historic</i>). Notably, on April 1, 1994, the <a href="/wiki/IETF" class="mw-redirect" title="IETF">IETF</a> published an <a href="/wiki/April_Fools%27_Day_RfC" class="mw-redirect" title="April Fools&#39; Day RfC">April Fools' Day RfC</a> about IPv9.<sup id="cite&#95;ref-14" class="reference"><a href="#cite_note-14"><span class="cite-bracket">&#91;</span>14<span class="cite-bracket">&#93;</span></a></sup> IPv9 was also used in an alternate proposed address space expansion called TUBA.<sup id="cite&#95;ref-15" class="reference"><a href="#cite_note-15"><span class="cite-bracket">&#91;</span>15<span class="cite-bracket">&#93;</span></a></sup> A 2004 Chinese proposal for <a href="/wiki/IPv9_(China)" title="IPv9 (China)">an IPv9 protocol</a> appears to be unrelated to all of these, and is not endorsed by the IETF.
+</p>
+<div class="mw-heading mw-heading3"><h3 id="IP_version_numbers">IP version numbers</h3><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=4" title="Edit section: IP version numbers"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1320445320">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}@media print{body.ns-0 .mw-parser-output .hatnote{display:none!important}}</style><div role="note" class="hatnote navigation-not-searchable">Main article: <a href="/wiki/List_of_IP_version_numbers" title="List of IP version numbers">List of IP version numbers</a></div>
+<p>As the version number is carried in a 4-bit field, only numbers 0–15 can be assigned.
+</p>
+<table class="wikitable">
+
+<tbody><tr>
+<th>IP version
+</th>
+<th>Description
+</th>
+<th>Year
+</th>
+<th>Status
+</th></tr>
+<tr>
+<th>0
+</th>
+<td>Internet Protocol, pre-v4</td>
+<td>N/A</td>
+<td>Reserved.<sup id="cite&#95;ref-routing&#95;tcp/ip&#95;16-0" class="reference"><a href="#cite_note-routing_tcp/ip-16"><span class="cite-bracket">&#91;</span>16<span class="cite-bracket">&#93;</span></a></sup>
+</td></tr>
+<tr>
+<th>1
+</th>
+<td>Experimental version</td>
+<td>1973</td>
+<td>Obsolete.
+</td></tr>
+<tr>
+<th>2
+</th>
+<td>Experimental version</td>
+<td>1977</td>
+<td>Obsolete.
+</td></tr>
+<tr>
+<th>3
+</th>
+<td>Experimental version</td>
+<td>1978</td>
+<td>Obsolete.
+</td></tr>
+<tr>
+<th>4
+</th>
+<td><a href="/wiki/Internet_Protocol_version_4" class="mw-redirect" title="Internet Protocol version 4">Internet Protocol version 4</a> (IPv4)<sup id="cite&#95;ref-rfc791&#95;17-0" class="reference"><a href="#cite_note-rfc791-17"><span class="cite-bracket">&#91;</span>17<span class="cite-bracket">&#93;</span></a></sup></td>
+<td>1981</td>
+<td>Active.
+</td></tr>
+<tr>
+<th rowspan="3">5
+</th>
+<td><a href="/wiki/Internet_Stream_Protocol" title="Internet Stream Protocol">Internet Stream Protocol</a> (ST)</td>
+<td>1979</td>
+<td>Obsolete; superseded by ST-II (or ST2).
+</td></tr>
+<tr>
+<td><a href="/wiki/Internet_Stream_Protocol" title="Internet Stream Protocol">Internet Stream Protocol</a> (ST-II or ST2)</td>
+<td>1987</td>
+<td>Obsolete; superseded by ST2+.
+</td></tr>
+<tr>
+<td><a href="/wiki/Internet_Stream_Protocol" title="Internet Stream Protocol">Internet Stream Protocol</a> (ST2+)<sup id="cite&#95;ref-rfc1819&#95;18-0" class="reference"><a href="#cite_note-rfc1819-18"><span class="cite-bracket">&#91;</span>18<span class="cite-bracket">&#93;</span></a></sup></td>
+<td>1995</td>
+<td>Obsolete.
+</td></tr>
+<tr>
+<th rowspan="2">6
+</th>
+<td>Simple Internet Protocol (SIP)</td>
+<td>N/A</td>
+<td>Obsolete; merged into IPv6 in 1995.<sup id="cite&#95;ref-routing&#95;tcp/ip&#95;16-1" class="reference"><a href="#cite_note-routing_tcp/ip-16"><span class="cite-bracket">&#91;</span>16<span class="cite-bracket">&#93;</span></a></sup>
+</td></tr>
+<tr>
+<td><a href="/wiki/Internet_Protocol_version_6" class="mw-redirect" title="Internet Protocol version 6">Internet Protocol version 6</a> (IPv6)<sup id="cite&#95;ref-rfc8200&#95;19-0" class="reference"><a href="#cite_note-rfc8200-19"><span class="cite-bracket">&#91;</span>19<span class="cite-bracket">&#93;</span></a></sup></td>
+<td>1995</td>
+<td>Active.
+</td></tr>
+<tr>
+<th>7
+</th>
+<td>TP/IX The Next Internet (IPv7)<sup id="cite&#95;ref-rfc1475&#95;20-0" class="reference"><a href="#cite_note-rfc1475-20"><span class="cite-bracket">&#91;</span>20<span class="cite-bracket">&#93;</span></a></sup></td>
+<td>1993</td>
+<td>Obsolete.<sup id="cite&#95;ref-rfc6814&#95;21-0" class="reference"><a href="#cite_note-rfc6814-21"><span class="cite-bracket">&#91;</span>21<span class="cite-bracket">&#93;</span></a></sup>
+</td></tr>
+<tr>
+<th>8
+</th>
+<td>P Internet Protocol (PIP)<sup id="cite&#95;ref-rfc1621&#95;22-0" class="reference"><a href="#cite_note-rfc1621-22"><span class="cite-bracket">&#91;</span>22<span class="cite-bracket">&#93;</span></a></sup></td>
+<td>1994</td>
+<td>Obsolete; merged into SIP in 1993.
+</td></tr>
+<tr>
+<th rowspan="3">9
+</th>
+<td>TCP and UDP over Bigger Addresses (TUBA)</td>
+<td>1992</td>
+<td>Obsolete.<sup id="cite&#95;ref-rfc1347&#95;23-0" class="reference"><a href="#cite_note-rfc1347-23"><span class="cite-bracket">&#91;</span>23<span class="cite-bracket">&#93;</span></a></sup>
+</td></tr>
+<tr>
+<td>IPv9</td>
+<td>1994</td>
+<td><a href="/wiki/April_Fools%27_Day" title="April Fools&#39; Day">April Fools' Day</a> joke.<sup id="cite&#95;ref-rfc1606&#95;24-0" class="reference"><a href="#cite_note-rfc1606-24"><span class="cite-bracket">&#91;</span>24<span class="cite-bracket">&#93;</span></a></sup>
+</td></tr>
+<tr>
+<td><a href="/wiki/Chinese_IPv9" class="mw-redirect" title="Chinese IPv9">Chinese IPv9</a></td>
+<td>2004</td>
+<td>Abandoned.
+</td></tr>
+<tr>
+<th>10–14
+</th>
+<td>N/A</td>
+<td>N/A</td>
+<td>Unassigned.
+</td></tr>
+<tr>
+<th>15
+</th>
+<td><i>Version field <a href="/wiki/Sentinel_value" title="Sentinel value">sentinel value</a></i></td>
+<td>N/A</td>
+<td>Reserved.
+</td></tr></tbody></table>
+<div class="mw-heading mw-heading2"><h2 id="Reliability">Reliability</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=5" title="Edit section: Reliability"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>The design of the Internet protocol suite adheres to the <a href="/wiki/End-to-end_principle" title="End-to-end principle">end-to-end principle</a>, a concept adapted from the <a href="/wiki/CYCLADES" title="CYCLADES">CYCLADES</a> project. Under the end-to-end principle, the network infrastructure is considered inherently unreliable at any single network element or transmission medium and is dynamic in terms of the availability of links and nodes. No central monitoring or performance measurement facility exists that tracks or maintains the state of the network. For the benefit of reducing <a href="/wiki/Network_complexity" title="Network complexity">network complexity</a>, the intelligence in the network is located in the <a href="/wiki/End_node" class="mw-redirect" title="End node">end nodes</a>.
+</p><p>As a consequence of this design, the Internet Protocol only provides <a href="/wiki/Best-effort_delivery" title="Best-effort delivery">best-effort delivery</a> and its service is characterized as <a href="/wiki/Reliability_(computer_networking)" title="Reliability (computer networking)">unreliable</a>. In network architectural parlance, it is a <a href="/wiki/Connectionless_protocol" class="mw-redirect" title="Connectionless protocol">connectionless protocol</a>, in contrast to <a href="/wiki/Connection-oriented_communication" title="Connection-oriented communication">connection-oriented communication</a>. Various fault conditions may occur, such as <a href="/wiki/Data_corruption" title="Data corruption">data corruption</a>, <a href="/wiki/Packet_loss" title="Packet loss">packet loss</a> and duplication. Because routing is dynamic, meaning every packet is treated independently, and because the network maintains no state based on the path of prior packets, different packets may be routed to the same destination via different paths, resulting in <a href="/wiki/Out-of-order_delivery" title="Out-of-order delivery">out-of-order delivery</a> to the receiver.
+</p><p>All fault conditions in the network must be detected and compensated for by the participating end nodes. The <a href="/wiki/Upper_layer_protocol" class="mw-redirect" title="Upper layer protocol">upper layer protocols</a> of the Internet protocol suite are responsible for resolving reliability issues. For example, a host may <a href="/wiki/Data_buffer" title="Data buffer">buffer</a> network data to ensure correct ordering before the data is delivered to an application.
+</p><p>IPv4 provides safeguards to ensure that the header of an IP packet is error-free. A routing node discards packets that fail a header <a href="/wiki/Checksum" title="Checksum">checksum</a> test. Although the <a href="/wiki/Internet_Control_Message_Protocol" title="Internet Control Message Protocol">Internet Control Message Protocol</a> (ICMP) provides notification of errors, a routing node is not required to notify either end node of errors. IPv6, by contrast, operates without header checksums, since current <a href="/wiki/Link_layer" title="Link layer">link layer</a> technology is assumed to provide sufficient error detection.<sup id="cite&#95;ref-rfc1726&#95;25-0" class="reference"><a href="#cite_note-rfc1726-25"><span class="cite-bracket">&#91;</span>25<span class="cite-bracket">&#93;</span></a></sup><sup class="reference nowrap"><span title="Location: §6.2">&#58;&#8202;§6.2&#8202;</span></sup><sup id="cite&#95;ref-rfc8200&#95;19-1" class="reference"><a href="#cite_note-rfc8200-19"><span class="cite-bracket">&#91;</span>19<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Link_capacity_and_capability">Link capacity and capability</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=6" title="Edit section: Link capacity and capability"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>The dynamic nature of the Internet and the diversity of its components provide no guarantee that any particular path is actually capable of, or suitable for, performing the data transmission requested. One of the technical constraints is the size of data packets possible on a given link. Facilities exist to examine the <a href="/wiki/Maximum_transmission_unit" title="Maximum transmission unit">maximum transmission unit</a> (MTU) size of the local link and <a href="/wiki/Path_MTU_Discovery" title="Path MTU Discovery">Path MTU Discovery</a> can be used for the entire intended path to the destination.<sup id="cite&#95;ref-26" class="reference"><a href="#cite_note-26"><span class="cite-bracket">&#91;</span>26<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>The IPv4 internetworking layer automatically <a href="/wiki/IP_fragmentation" title="IP fragmentation">fragments</a> a datagram into smaller units for transmission when the link MTU is exceeded. IP provides re-ordering of fragments received out of order.<sup id="cite&#95;ref-27" class="reference"><a href="#cite_note-27"><span class="cite-bracket">&#91;</span>27<span class="cite-bracket">&#93;</span></a></sup> An IPv6 network does not perform fragmentation in network elements, but requires end hosts and higher-layer protocols to avoid exceeding the path MTU.<sup id="cite&#95;ref-28" class="reference"><a href="#cite_note-28"><span class="cite-bracket">&#91;</span>28<span class="cite-bracket">&#93;</span></a></sup>
+</p><p>The <a href="/wiki/Transmission_Control_Protocol" title="Transmission Control Protocol">Transmission Control Protocol</a> (TCP) is an example of a protocol that adjusts its segment size to be smaller than the MTU. The <a href="/wiki/User_Datagram_Protocol" title="User Datagram Protocol">User Datagram Protocol</a> (UDP) and ICMP disregard MTU size, thereby forcing IP to fragment oversized datagrams.<sup id="cite&#95;ref-29" class="reference"><a href="#cite_note-29"><span class="cite-bracket">&#91;</span>29<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="Security">Security</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=7" title="Edit section: Security"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<p>During the design phase of the <a href="/wiki/ARPANET" title="ARPANET">ARPANET</a> and the early Internet, the security aspects and needs of a public, international network were not adequately anticipated.  Consequently, many Internet protocols exhibited vulnerabilities highlighted by network attacks and later security assessments. In 2008, a thorough security assessment and proposed mitigation of problems was published.<sup id="cite&#95;ref-30" class="reference"><a href="#cite_note-30"><span class="cite-bracket">&#91;</span>30<span class="cite-bracket">&#93;</span></a></sup> The IETF has been pursuing further studies.<sup id="cite&#95;ref-&#82;FC&#95;6274&#95;31-0" class="reference"><a href="#cite_note-RFC_6274-31"><span class="cite-bracket">&#91;</span>31<span class="cite-bracket">&#93;</span></a></sup>
+</p>
+<div class="mw-heading mw-heading2"><h2 id="See_also">See also</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=8" title="Edit section: See also"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1266661725">.mw-parser-output .portalbox{padding:0;margin:0.5em 0;display:table;box-sizing:border-box;max-width:175px;list-style:none}.mw-parser-output .portalborder{border:1px solid var(--border-color-base,#a2a9b1);padding:0.1em;background:var(--background-color-neutral-subtle,#f8f9fa)}.mw-parser-output .portalbox-entry{display:table-row;font-size:85%;line-height:110%;height:1.9em;font-style:italic;font-weight:bold}.mw-parser-output .portalbox-image{display:table-cell;padding:0.2em;vertical-align:middle;text-align:center}.mw-parser-output .portalbox-link{display:table-cell;padding:0.2em 0.2em 0.2em 0.3em;vertical-align:middle}@media(min-width:720px){.mw-parser-output .portalleft{margin:0.5em 1em 0.5em 0}.mw-parser-output .portalright{clear:right;float:right;margin:0.5em 0 0.5em 1em}}</style><ul role="navigation" aria-label="Portals" class="noprint portalbox portalborder portalright">
+<li class="portalbox-entry"><span class="portalbox-image"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Crystal_Clear_app_linneighborhood.svg" class="mw-file-description"><img alt="icon" src="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/40px-Crystal_Clear_app_linneighborhood.svg.png" decoding="async" width="28" height="28" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/f/f9/Crystal_Clear_app_linneighborhood.svg/60px-Crystal_Clear_app_linneighborhood.svg.png 1.5x" data-file-width="407" data-file-height="407" /></a></span></span><span class="portalbox-link"><a href="/wiki/Portal:Internet" title="Portal:Internet">Internet portal</a></span></li></ul>
+<ul><li><a href="/wiki/ICANN" title="ICANN">ICANN</a></li>
+<li><a href="/wiki/IP_routing" title="IP routing">IP routing</a></li>
+<li><a href="/wiki/List_of_IP_protocol_numbers" title="List of IP protocol numbers">List of IP protocol numbers</a></li>
+<li><a href="/wiki/List_of_IP_version_numbers" title="List of IP version numbers">List of IP version numbers</a></li>
+<li><a href="/wiki/Next-generation_network" title="Next-generation network">Next-generation network</a></li>
+<li><a href="/wiki/New_IP" title="New IP">New IP</a> (proposal)</li>
+<li><a href="/wiki/Timeline_of_the_history_of_the_Internet" title="Timeline of the history of the Internet">Timeline of the history of the Internet</a></li></ul>
+<div class="mw-heading mw-heading2"><h2 id="References">References</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=9" title="Edit section: References"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1327269900">.mw-parser-output .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}body.skin-vector-2022 .mw-parser-output .reflist-columns-2{column-width:27em}body.skin-vector-2022 .mw-parser-output .reflist-columns-3{column-width:22.5em}.mw-parser-output .references[data-mw-group=upper-alpha]{list-style-type:upper-alpha}.mw-parser-output .references[data-mw-group=upper-roman]{list-style-type:upper-roman}.mw-parser-output .references[data-mw-group=lower-alpha]{list-style-type:lower-alpha}.mw-parser-output .references[data-mw-group=lower-greek]{list-style-type:lower-greek}.mw-parser-output .references[data-mw-group=lower-roman]{list-style-type:lower-roman}.mw-parser-output div.reflist-liststyle-upper-alpha .references{list-style-type:upper-alpha}.mw-parser-output div.reflist-liststyle-upper-roman .references{list-style-type:upper-roman}.mw-parser-output div.reflist-liststyle-lower-alpha .references{list-style-type:lower-alpha}.mw-parser-output div.reflist-liststyle-lower-greek .references{list-style-type:lower-greek}.mw-parser-output div.reflist-liststyle-lower-roman .references{list-style-type:lower-roman}</style><div>
+<div class="mw-references-wrap mw-references-columns"><ol class="references">
+<li id="cite&#95;note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation report cs1"><a rel="nofollow" class="external text" href="https://www.oecd-ilibrary.org/science-and-technology/the-economics-of-transition-to-internet-protocol-version-6-ipv6_5jxt46d07bhc-en">The Economics of Transition to Internet Protocol version 6 (IPv6)</a> (Report). OECD Digital Economy Papers. OECD. 2014-11-06. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.1787%2F5jxt46d07bhc-en">10.1787/5jxt46d07bhc-en</a></span>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210307213313/https://www.oecd-ilibrary.org/science-and-technology/the-economics-of-transition-to-internet-protocol-version-6-ipv6_5jxt46d07bhc-en">Archived</a> from the original on 2021-03-07<span class="reference-accessdate">. Retrieved <span class="nowrap">2020-12-04</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=report&amp;rft.btitle=The+Economics+of+Transition+to+Internet+Protocol+version+6+%28IPv6%29&amp;rft.series=OECD+Digital+Economy+Papers&amp;rft.pub=OECD&amp;rft.date=2014-11-06&amp;rft&#95;id=info%3Adoi%2F10.1787%2F5jxt46d07bhc-en&amp;rft&#95;id=https%3A%2F%2Fwww.oecd-ilibrary.org%2Fscience-and-technology%2Fthe-economics-of-transition-to-internet-protocol-version-6-ipv6&#95;5jxt46d07bhc-en&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFCharles&#95;M.&#95;Kozierok" class="citation cs2">Charles M. Kozierok, <a rel="nofollow" class="external text" href="http://www.tcpipguide.com/free/t_IPFunctions.htm"><i>The TCP/IP Guide</i></a>, <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190620010402/http://www.tcpipguide.com/free/t_IPFunctions.htm">archived</a> from the original on 2019-06-20<span class="reference-accessdate">, retrieved <span class="nowrap">2017-07-22</span></span></cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=The+TCP%2FIP+Guide&amp;rft.au=Charles+M.+Kozierok&amp;rft&#95;id=http%3A%2F%2Fwww.tcpipguide.com%2Ffree%2Ft&#95;IPFunctions.htm&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://web.archive.org/web/20210105023938/http://www.eitc.org/research-opportunities/future-internet-and-optical-quantum-communications/internet-networks-and-tcp-ip/ip-technologies-and-migration">"IP Technologies and Migration — EITC"</a>. <i>www.eitc.org</i>. Archived from <a rel="nofollow" class="external text" href="http://www.eitc.org/research-opportunities/future-internet-and-optical-quantum-communications/internet-networks-and-tcp-ip/ip-technologies-and-migration">the original</a> on 2021-01-05<span class="reference-accessdate">. Retrieved <span class="nowrap">2020-12-04</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.eitc.org&amp;rft.atitle=IP+Technologies+and+Migration+%E2%80%94+EITC&amp;rft&#95;id=http%3A%2F%2Fwww.eitc.org%2Fresearch-opportunities%2Ffuture-internet-and-optical-quantum-communications%2Finternet-networks-and-tcp-ip%2Fip-technologies-and-migration&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFGościeńWalkowiakKlinkowski2015" class="citation journal cs1">Goścień, Róża; Walkowiak, Krzysztof; Klinkowski, Mirosław (2015-03-14). <a rel="nofollow" class="external text" href="https://www.sciencedirect.com/science/article/pii/S1389128614004460">"Tabu search algorithm for routing, modulation and spectrum allocation in elastic optical network with anycast and unicast traffic"</a>. <i>Computer Networks</i>. <b>79</b>: <span class="nowrap">148–</span>165. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1016%2Fj.comnet.2014.12.004">10.1016/j.comnet.2014.12.004</a>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://search.worldcat.org/issn/1389-1286">1389-1286</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=Computer+Networks&amp;rft.atitle=Tabu+search+algorithm+for+routing%2C+modulation+and+spectrum+allocation+in+elastic+optical+network+with+anycast+and+unicast+traffic&amp;rft.volume=79&amp;rft.pages=148-165&amp;rft.date=2015-03-14&amp;rft&#95;id=info%3Adoi%2F10.1016%2Fj.comnet.2014.12.004&amp;rft.issn=1389-1286&amp;rft.aulast=Go%C5%9Bcie%C5%84&amp;rft.aufirst=R%C3%B3%C5%BCa&amp;rft.au=Walkowiak%2C+Krzysztof&amp;rft.au=Klinkowski%2C+Miros%C5%82aw&amp;rft&#95;id=https%3A%2F%2Fwww.sciencedirect.com%2Fscience%2Farticle%2Fpii%2FS1389128614004460&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFCerfKahn1974" class="citation journal cs1">Cerf, V.; Kahn, R. (1974). <a rel="nofollow" class="external text" href="https://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf">"A Protocol for Packet Network Intercommunication"</a> <span class="cs1-format">(PDF)</span>. <i>IEEE Transactions on Communications</i>. <b>22</b> (5): <span class="nowrap">637–</span>648. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<a rel="nofollow" class="external text" href="https://doi.org/10.1109%2FTCOM.1974.1092259">10.1109/TCOM.1974.1092259</a>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://search.worldcat.org/issn/1558-0857">1558-0857</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20170106204542/http://www.cs.princeton.edu/courses/archive/fall06/cos561/papers/cerf74.pdf">Archived</a> <span class="cs1-format">(PDF)</span> from the original on 2017-01-06<span class="reference-accessdate">. Retrieved <span class="nowrap">2020-04-06</span></span>. <q>The authors wish to thank a number of colleagues for helpful comments during early discussions of international network protocols, especially R. Metcalfe, R. Scantlebury, D. Walden, and H. Zimmerman; D. Davies and L. Pouzin who constructively commented on the fragmentation and accounting issues; and S. Crocker who commented on the creation and destruction of associations.</q></cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=IEEE+Transactions+on+Communications&amp;rft.atitle=A+Protocol+for+Packet+Network+Intercommunication&amp;rft.volume=22&amp;rft.issue=5&amp;rft.pages=637-648&amp;rft.date=1974&amp;rft&#95;id=info%3Adoi%2F10.1109%2FTCOM.1974.1092259&amp;rft.issn=1558-0857&amp;rft.aulast=Cerf&amp;rft.aufirst=V.&amp;rft.au=Kahn%2C+R.&amp;rft&#95;id=https%3A%2F%2Fwww.cs.princeton.edu%2Fcourses%2Farchive%2Ffall06%2Fcos561%2Fpapers%2Fcerf74.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.rfc-editor.org/ien/ien-index.html">"Internet Experiment Note Index"</a>. <i>www.rfc-editor.org</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2024-01-21</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=www.rfc-editor.org&amp;rft.atitle=Internet+Experiment+Note+Index&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Fien%2Fien-index.html&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-Coty-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-Coty_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-Coty_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFStephen&#95;Coty2011" class="citation web cs1">Stephen Coty (2011-02-11). <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200802011845/https://blog.alertlogic.com/blog/where-is-ipv1,-2,-3,and-5/">"Where is IPv1, 2, 3, and 5?"</a>. Archived from <a rel="nofollow" class="external text" href="https://blog.alertlogic.com/blog/where-is-ipv1,-2,-3,and-5/">the original</a> on 2020-08-02<span class="reference-accessdate">. Retrieved <span class="nowrap">2020-03-25</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Where+is+IPv1%2C+2%2C+3%2C+and+5%3F&amp;rft.date=2011-02-11&amp;rft.au=Stephen+Coty&amp;rft&#95;id=https%3A%2F%2Fblog.alertlogic.com%2Fblog%2Fwhere-is-ipv1%2C-2%2C-3%2Cand-5%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFPostel1978" class="citation cs1">Postel, Jonathan B. (February 1978). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/ien/ien28.pdf">"Draft Internetwork Protocol Specification Version 2"</a> <span class="cs1-format">(PDF)</span>. <i>RFC Editor</i>. IEN 28<span class="reference-accessdate">. Retrieved <span class="nowrap">6 October</span> 2022</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=&#82;FC+Editor&amp;rft.atitle=Draft+Internetwork+Protocol+Specification+Version+2&amp;rft.date=1978-02&amp;rft.aulast=Postel&amp;rft.aufirst=Jonathan+B.&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Fien%2Fien28.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190516090051/https://www.rfc-editor.org/ien/ien28.pdf">Archived</a> 16 May 2019 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite&#95;note-9"><span class="mw-cite-backlink"><b><a href="#cite_ref-9">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFPostel1978" class="citation cs1">Postel, Jonathan B. (June 1978). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/ien/ien41.pdf">"Internetwork Protocol Specification Version 4"</a> <span class="cs1-format">(PDF)</span>. <i>RFC Editor</i>. IEN 41<span class="reference-accessdate">. Retrieved <span class="nowrap">11 February</span> 2024</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=article&amp;rft.jtitle=&#82;FC+Editor&amp;rft.atitle=Internetwork+Protocol+Specification+Version+4&amp;rft.date=1978-06&amp;rft.aulast=Postel&amp;rft.aufirst=Jonathan+B.&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Fien%2Fien41.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190516090053/http://www.rfc-editor.org/ien/ien41.pdf">Archived</a> 16 May 2019 at the <a href="/wiki/Wayback_Machine" title="Wayback Machine">Wayback Machine</a></span>
+</li>
+<li id="cite&#95;note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFStrowes2021" class="citation web cs1">Strowes, Stephen (4 Jun 2021). <a rel="nofollow" class="external text" href="https://labs.ripe.net/author/stephen_strowes/ipv6-adoption-in-2021/">"IPv6 Adoption in 2021"</a>. <i>RIPE Labs</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20210920213008/https://labs.ripe.net/author/stephen_strowes/ipv6-adoption-in-2021/">Archived</a> from the original on 2021-09-20<span class="reference-accessdate">. Retrieved <span class="nowrap">2021-09-20</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=RIPE+Labs&amp;rft.atitle=IPv6+Adoption+in+2021&amp;rft.date=2021-06-04&amp;rft.aulast=Strowes&amp;rft.aufirst=Stephen&amp;rft&#95;id=https%3A%2F%2Flabs.ripe.net%2Fauthor%2Fstephen&#95;strowes%2Fipv6-adoption-in-2021%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-11"><span class="mw-cite-backlink"><b><a href="#cite_ref-11">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.google.com/intl/en/ipv6/statistics.html#tab=ipv6-adoption">"IPv6"</a>. <i>Google</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20200714184705/https://www.google.com/intl/en/ipv6/statistics.html#tab=ipv6-adoption">Archived</a> from the original on 2020-07-14<span class="reference-accessdate">. Retrieved <span class="nowrap">2023-05-19</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Google&amp;rft.atitle=IPv6&amp;rft&#95;id=https%3A%2F%2Fwww.google.com%2Fintl%2Fen%2Fipv6%2Fstatistics.html%23tab%3Dipv6-adoption&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFMulligan" class="citation web cs1">Mulligan, Geoff. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20150705060055/http://archive.oreilly.com/cs/user/view/cs_msg/25036">"It was almost IPv7"</a>. <i>O'Reilly</i>. Archived from <a rel="nofollow" class="external text" href="http://archive.oreilly.com/cs/user/view/cs_msg/25036">the original</a> on 5 July 2015<span class="reference-accessdate">. Retrieved <span class="nowrap">4 July</span> 2015</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=O%27Reilly&amp;rft.atitle=It+was+almost+IPv7&amp;rft.aulast=Mulligan&amp;rft.aufirst=Geoff&amp;rft&#95;id=http%3A%2F%2Farchive.oreilly.com%2Fcs%2Fuser%2Fview%2Fcs&#95;msg%2F25036&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite class="citation web cs1"><a rel="nofollow" class="external text" href="https://www.iana.org/assignments/version-numbers/version-numbers.xhtml">"IP Version Numbers"</a>. <i>Internet Assigned Numbers Authority</i>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20190118144623/https://www.iana.org/assignments/version-numbers/version-numbers.xhtml">Archived</a> from the original on 2019-01-18<span class="reference-accessdate">. Retrieved <span class="nowrap">2019-07-25</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Internet+Assigned+Numbers+Authority&amp;rft.atitle=IP+Version+Numbers&amp;rft&#95;id=https%3A%2F%2Fwww.iana.org%2Fassignments%2Fversion-numbers%2Fversion-numbers.xhtml&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/RFC_(identifier)" class="mw-redirect" title="RFC (identifier)">RFC</a>&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1606">1606</a>: <i>A Historical Perspective On The Usage Of IP Version 9</i>. April 1, 1994.</span>
+</li>
+<li id="cite&#95;note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFRoss&#95;Callon1992" class="citation cs1">Ross Callon (June 1992). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1347"><i>TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing</i></a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1347">10.17487/RFC1347</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1347">1347</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=TCP+and+UDP+with+Bigger+Addresses+%28TUBA%29%2C+A+Simple+Proposal+for+Internet+Addressing+and+Routing&amp;rft.date=1992-06&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1347&amp;rft.au=Ross+Callon&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1347&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-routing&#95;tcp/ip-16"><span class="mw-cite-backlink">^ <a href="#cite_ref-routing_tcp/ip_16-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-routing_tcp/ip_16-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFJeff&#95;DoyleJennifer&#95;Carroll2006" class="citation book cs1">Jeff Doyle; Jennifer Carroll (2006). <i>Routing TCP/IP</i>. Vol.&#160;1 (2&#160;ed.). Cisco Press. p.&#160;8. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-1-58705-202-6" title="Special:BookSources/978-1-58705-202-6"><bdi>978-1-58705-202-6</bdi></a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Routing+TCP%2FIP&amp;rft.pages=8&amp;rft.edition=2&amp;rft.pub=Cisco+Press&amp;rft.date=2006&amp;rft.isbn=978-1-58705-202-6&amp;rft.au=Jeff+Doyle&amp;rft.au=Jennifer+Carroll&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-rfc791-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc791_17-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFJ.&#95;Postel1981" class="citation cs1"><a href="/wiki/Jon_Postel" title="Jon Postel">J. Postel</a>, ed. (September 1981). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc791"><i>INTERNET PROTOCOL - DARPA INTERNET PROGRAM PROTOCOL SPECIFICATION</i></a>. <a href="/wiki/IETF" class="mw-redirect" title="IETF">IETF</a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC0791">10.17487/RFC0791</a></span>. STD 5.&#32;<a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc791">791</a>.&#32;IEN 128, 123, 111, 80, 54, 44, 41, 28, 26.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=INTERNET+PROTOCOL+-+DARPA+INTERNET+PROGRAM+PROTOCOL+SPECIFICATION&amp;rft.pub=IETF&amp;rft.date=1981-09&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC0791&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc791&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Internet Standard 5.</i>  Obsoletes <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc760">760</a>. Updated by <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1349">1349</a>, <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc2474">2474</a> and <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6864">6864</a>. </span>
+</li>
+<li id="cite&#95;note-rfc1819-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1819_18-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFL.&#95;DelgrossiL.&#95;Berger1995" class="citation cs1">L. Delgrossi; L. Berger, eds. (August 1995). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1819"><i>Internet Stream Protocol Version 2 (ST2) Protocol Specification - Version ST2+</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1819">10.17487/RFC1819</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1819">1819</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Internet+Stream+Protocol+Version+2+%28ST2%29+Protocol+Specification+-+Version+ST2%2B&amp;rft.pub=Network+Working+Group&amp;rft.date=1995-08&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1819&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1819&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Historic.</i>  Obsoletes <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1190">1190</a> and IEN 119. </span>
+</li>
+<li id="cite&#95;note-rfc8200-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-rfc8200_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-rfc8200_19-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFS.&#95;DeeringR.&#95;Hinden2017" class="citation cs1"><a href="/wiki/Steve_Deering" title="Steve Deering">S. Deering</a>; R. Hinden (July 2017). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc8200"><i>Internet Protocol, Version 6 (IPv6) Specification</i></a>. <a href="/wiki/Internet_Engineering_Task_Force" title="Internet Engineering Task Force">Internet Engineering Task Force</a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC8200">10.17487/RFC8200</a></span>. STD 86.&#32;<a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc8200">8200</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Internet+Protocol%2C+Version+6+%28IPv6%29+Specification&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft.date=2017-07&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC8200&amp;rft.au=S.+Deering&amp;rft.au=R.+Hinden&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc8200&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Internet Standard 86.</i>  Obsoletes <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc2460">2460</a>. </span>
+</li>
+<li id="cite&#95;note-rfc1475-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1475_20-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFR.&#95;Ullmann1993" class="citation cs1">R. Ullmann (June 1993). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1475"><i>TP/IX: The Next Internet</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1475">10.17487/RFC1475</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1475">1475</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=TP%2FIX%3A+The+Next+Internet&amp;rft.pub=Network+Working+Group&amp;rft.date=1993-06&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1475&amp;rft.au=R.+Ullmann&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1475&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Historic.</i>  Obsoleted by <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6814">6814</a>. </span>
+</li>
+<li id="cite&#95;note-rfc6814-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc6814_21-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFC.&#95;PignataroF.&#95;Gont2012" class="citation cs1">C. Pignataro; F. Gont (November 2012). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6814"><i>Formally Deprecating Some IPv4 Options</i></a>. <a href="/wiki/Internet_Engineering_Task_Force" title="Internet Engineering Task Force">Internet Engineering Task Force</a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC6814">10.17487/RFC6814</a></span>. <a href="/wiki/ISSN_(identifier)" class="mw-redirect" title="ISSN (identifier)">ISSN</a>&#160;<a rel="nofollow" class="external text" href="https://search.worldcat.org/issn/2070-1721">2070-1721</a>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc6814">6814</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Formally+Deprecating+Some+IPv4+Options&amp;rft.pub=Internet+Engineering+Task+Force&amp;rft.date=2012-11&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC6814&amp;rft.issn=2070-1721&amp;rft.au=C.+Pignataro&amp;rft.au=F.+Gont&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc6814&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Proposed Standard.</i>  Obsoletes <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" />RFC&#160;<a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1385">1385</a>, <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1393">1393</a>, <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1475">1475</a> and <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1770">1770</a>. </span>
+</li>
+<li id="cite&#95;note-rfc1621-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1621_22-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFP.&#95;Francis1994" class="citation cs1">P. Francis (May 1994). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1621"><i>Pip Near-term Architecture</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1621">10.17487/RFC1621</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1621">1621</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Pip+Near-term+Architecture&amp;rft.pub=Network+Working+Group&amp;rft.date=1994-05&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1621&amp;rft.au=P.+Francis&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1621&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Historic.</i>   </span>
+</li>
+<li id="cite&#95;note-rfc1347-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1347_23-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFRoss&#95;Callon1992" class="citation cs1">Ross Callon (June 1992). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1347"><i>TCP and UDP with Bigger Addresses (TUBA), A Simple Proposal for Internet Addressing and Routing</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1347">10.17487/RFC1347</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1347">1347</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=TCP+and+UDP+with+Bigger+Addresses+%28TUBA%29%2C+A+Simple+Proposal+for+Internet+Addressing+and+Routing&amp;rft.pub=Network+Working+Group&amp;rft.date=1992-06&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1347&amp;rft.au=Ross+Callon&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1347&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Historic.</i>   </span>
+</li>
+<li id="cite&#95;note-rfc1606-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1606_24-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFJ.&#95;Onions1994" class="citation cs1">J. Onions (1 April 1994). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1606"><i>A Historical Perspective On The Usage Of IP Version 9</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1606">10.17487/RFC1606</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1606">1606</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=A+Historical+Perspective+On+The+Usage+Of+IP+Version+9&amp;rft.pub=Network+Working+Group&amp;rft.date=1994-04-01&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1606&amp;rft.au=J.+Onions&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1606&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Informational.</i>  This is an <a href="/wiki/April_Fools%27_Day_Request_for_Comments" title="April Fools&#39; Day Request for Comments">April Fools' Day Request for Comments</a>. </span>
+</li>
+<li id="cite&#95;note-rfc1726-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-rfc1726_25-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFC.&#95;PartridgeF.&#95;Kastenholz1994" class="citation cs1">C. Partridge; F. Kastenholz (December 1994). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc1726"><i>Technical Criteria for Choosing IP The Next Generation (IPng)</i></a>. Network Working Group. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC1726">10.17487/RFC1726</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc1726">1726</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Technical+Criteria+for+Choosing+IP+The+Next+Generation+%28IPng%29&amp;rft.pub=Network+Working+Group&amp;rft.date=1994-12&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC1726&amp;rft.au=C.+Partridge&amp;rft.au=F.+Kastenholz&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc1726&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span> <i>Informational.</i>   </span>
+</li>
+<li id="cite&#95;note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFRishabh2012" class="citation book cs1">Rishabh, Anand (2012). <a rel="nofollow" class="external text" href="https://books.google.com/books?id=XDJlDwAAQBAJ&amp;q=The+dynamic+nature+of+the+Internet+and+the+diversity+of+its+components+provide+no+guarantee+that+any+particular+path+is+actually+capable+of%2C+or+suitable+for%2C+performing+the+data+transmission+requested.+One+of+the+technical+constraints+is+the+size+of+data+packets+possible+on+a+given+link.+Facilities+exist+to+examine+the+maximum+transmission+unit+%28MTU%29+size+of+the+local+link+and+Path+MTU+Discovery+can+be+used+for+the+entire+intended+path+to+the+destination.&amp;pg=PA332"><i>Wireless Communication</i></a>. S. Chand Publishing. <a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/978-81-219-4055-9" title="Special:BookSources/978-81-219-4055-9"><bdi>978-81-219-4055-9</bdi></a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20240612133919/https://books.google.com/books?id=XDJlDwAAQBAJ&amp;q=The+dynamic+nature+of+the+Internet+and+the+diversity+of+its+components+provide+no+guarantee+that+any+particular+path+is+actually+capable+of%2C+or+suitable+for%2C+performing+the+data+transmission+requested.+One+of+the+technical+constraints+is+the+size+of+data+packets+possible+on+a+given+link.+Facilities+exist+to+examine+the+maximum+transmission+unit+%28MTU%29+size+of+the+local+link+and+Path+MTU+Discovery+can+be+used+for+the+entire+intended+path+to+the+destination.&amp;pg=PA332#v=snippet&amp;q=The%20dynamic%20nature%20of%20the%20Internet%20and%20the%20diversity%20of%20its%20components%20provide%20no%20guarantee%20that%20any%20particular%20path%20is%20actually%20capable%20of%2C%20or%20suitable%20for%2C%20performing%20the%20data%20transmission%20requested.%20One%20of%20the%20technical%20constraints%20is%20the%20size%20of%20data%20packets%20possible%20on%20a%20given%20link.%20Facilities%20exist%20to%20examine%20the%20maximum%20transmission%20unit%20(MTU)%20size%20of%20the%20local%20link%20and%20Path%20MTU%20Discovery%20can%20be%20used%20for%20the%20entire%20intended%20path%20to%20the%20destination.&amp;f=false">Archived</a> from the original on 2024-06-12<span class="reference-accessdate">. Retrieved <span class="nowrap">2020-12-11</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Wireless+Communication&amp;rft.pub=S.+Chand+Publishing&amp;rft.date=2012&amp;rft.isbn=978-81-219-4055-9&amp;rft.aulast=Rishabh&amp;rft.aufirst=Anand&amp;rft&#95;id=https%3A%2F%2Fbooks.google.com%2Fbooks%3Fid%3DXDJlDwAAQBAJ%26q%3DThe%2Bdynamic%2Bnature%2Bof%2Bthe%2BInternet%2Band%2Bthe%2Bdiversity%2Bof%2Bits%2Bcomponents%2Bprovide%2Bno%2Bguarantee%2Bthat%2Bany%2Bparticular%2Bpath%2Bis%2Bactually%2Bcapable%2Bof%252C%2Bor%2Bsuitable%2Bfor%252C%2Bperforming%2Bthe%2Bdata%2Btransmission%2Brequested.%2BOne%2Bof%2Bthe%2Btechnical%2Bconstraints%2Bis%2Bthe%2Bsize%2Bof%2Bdata%2Bpackets%2Bpossible%2Bon%2Ba%2Bgiven%2Blink.%2BFacilities%2Bexist%2Bto%2Bexamine%2Bthe%2Bmaximum%2Btransmission%2Bunit%2B%2528MTU%2529%2Bsize%2Bof%2Bthe%2Blocal%2Blink%2Band%2BPath%2BMTU%2BDiscovery%2Bcan%2Bbe%2Bused%2Bfor%2Bthe%2Bentire%2Bintended%2Bpath%2Bto%2Bthe%2Bdestination.%26pg%3DPA332&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text">Siyan, Karanjit. <i>Inside TCP/IP</i>, New Riders Publishing, 1997. <link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><a href="/wiki/ISBN_(identifier)" class="mw-redirect" title="ISBN (identifier)">ISBN</a>&#160;<a href="/wiki/Special:BookSources/1-56205-714-6" title="Special:BookSources/1-56205-714-6"><bdi>1-56205-714-6</bdi></a></span>
+</li>
+<li id="cite&#95;note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFBill&#95;Cerveny2011" class="citation web cs1">Bill Cerveny (2011-07-25). <a rel="nofollow" class="external text" href="https://www.arbornetworks.com/blog/asert/ipv6-fragmentation/">"IPv6 Fragmentation"</a>. <a href="/wiki/Arbor_Networks" title="Arbor Networks">Arbor Networks</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20160916162637/https://www.arbornetworks.com/blog/asert/ipv6-fragmentation/">Archived</a> from the original on 2016-09-16<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-09-10</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=IPv6+Fragmentation&amp;rft.pub=Arbor+Networks&amp;rft.date=2011-07-25&amp;rft.au=Bill+Cerveny&amp;rft&#95;id=https%3A%2F%2Fwww.arbornetworks.com%2Fblog%2Fasert%2Fipv6-fragmentation%2F&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFParker2010" class="citation web cs1">Parker, Don (2 November 2010). <a rel="nofollow" class="external text" href="https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=03c598ea-e171-47c9-8035-753ccd8bb36e&amp;CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&amp;tab=librarydocuments">"Basic Journey of a Packet"</a>. <i><a href="/wiki/Broadcom#Symantec_enterprise_security" title="Broadcom">Symantec</a></i>. <a href="/wiki/NortonLifeLock" class="mw-redirect" title="NortonLifeLock">Symantec</a>. <a rel="nofollow" class="external text" href="https://web.archive.org/web/20220120044011/https://community.broadcom.com/symantecenterprise/communities/community-home/librarydocuments/viewdocument?DocumentKey=03c598ea-e171-47c9-8035-753ccd8bb36e&amp;CommunityKey=1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68&amp;tab=librarydocuments">Archived</a> from the original on 20 January 2022<span class="reference-accessdate">. Retrieved <span class="nowrap">4 May</span> 2014</span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Symantec&amp;rft.atitle=Basic+Journey+of+a+Packet&amp;rft.date=2010-11-02&amp;rft.aulast=Parker&amp;rft.aufirst=Don&amp;rft&#95;id=https%3A%2F%2Fcommunity.broadcom.com%2Fsymantecenterprise%2Fcommunities%2Fcommunity-home%2Flibrarydocuments%2Fviewdocument%3FDocumentKey%3D03c598ea-e171-47c9-8035-753ccd8bb36e%26CommunityKey%3D1ecf5f55-9545-44d6-b0f4-4e4a7f5f5e68%26tab%3Dlibrarydocuments&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFFernando&#95;Gont2008" class="citation cs2">Fernando Gont (July 2008), <a rel="nofollow" class="external text" href="https://web.archive.org/web/20100211145721/http://www.cpni.gov.uk/Docs/InternetProtocol.pdf"><i>Security Assessment of the Internet Protocol</i></a> <span class="cs1-format">(PDF)</span>, <a href="/wiki/Centre_for_the_Protection_of_National_Infrastructure" class="mw-redirect" title="Centre for the Protection of National Infrastructure">CPNI</a>, archived from <a rel="nofollow" class="external text" href="http://www.cpni.gov.uk/Docs/InternetProtocol.pdf">the original</a> <span class="cs1-format">(PDF)</span> on 2010-02-11</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Security+Assessment+of+the+Internet+Protocol&amp;rft.pub=CPNI&amp;rft.date=2008-07&amp;rft.au=Fernando+Gont&amp;rft&#95;id=http%3A%2F%2Fwww.cpni.gov.uk%2FDocs%2FInternetProtocol.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+<li id="cite&#95;note-&#82;FC&#95;6274-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-RFC_6274_31-0">^</a></b></span> <span class="reference-text"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFF.&#95;Gont2011" class="citation cs1">F. Gont (July 2011). <a rel="nofollow" class="external text" href="https://www.rfc-editor.org/rfc/rfc6274"><i>Security Assessment of the Internet Protocol version 4</i></a>. <a href="/wiki/Doi_(identifier)" class="mw-redirect" title="Doi (identifier)">doi</a>:<span class="id-lock-free" title="Freely accessible"><a rel="nofollow" class="external text" href="https://doi.org/10.17487%2FRFC6274">10.17487/RFC6274</a></span>. <a href="/wiki/Request_for_Comments" title="Request for Comments">RFC</a> <a rel="nofollow" class="external text" href="https://datatracker.ietf.org/doc/html/rfc6274">6274</a>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Security+Assessment+of+the+Internet+Protocol+version+4&amp;rft.date=2011-07&amp;rft&#95;id=info%3Adoi%2F10.17487%2F&#82;FC6274&amp;rft.au=F.+Gont&amp;rft&#95;id=https%3A%2F%2Fwww.rfc-editor.org%2Frfc%2Frfc6274&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></span>
+</li>
+</ol></div></div>
+<div class="mw-heading mw-heading2"><h2 id="External_links">External links</h2><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Internet_Protocol&amp;action=edit&amp;section=10" title="Edit section: External links"><span>edit</span></a><span class="mw-editsection-bracket">]</span></span></div>
+<style data-mw-deduplicate="TemplateStyles:r1314755338">.mw-parser-output .side-box{margin:4px 0;box-sizing:border-box;border:1px solid #aaa;font-size:88%;line-height:1.25em;background-color:var(--background-color-interactive-subtle,#f8f9fa);color:inherit;display:flow-root}.mw-parser-output .infobox .side-box{font-size:100%}.mw-parser-output .side-box-abovebelow,.mw-parser-output .side-box-text{padding:0.25em 0.9em}.mw-parser-output .side-box-image{padding:2px 0 2px 0.9em;text-align:center}.mw-parser-output .side-box-imageright{padding:2px 0.9em 2px 0;text-align:center}@media(min-width:500px){.mw-parser-output .side-box-flex{display:flex;align-items:center}.mw-parser-output .side-box-text{flex:1;min-width:0}}@media(min-width:640px){.mw-parser-output .side-box{width:238px}.mw-parser-output .side-box-right{clear:right;float:right;margin-left:1em}.mw-parser-output .side-box-left{margin-right:1em}}</style><style data-mw-deduplicate="TemplateStyles:r1311551236">@media print{body.ns-0 .mw-parser-output .sistersitebox{display:none!important}}@media screen{html.skin-theme-clientpref-night .mw-parser-output .sistersitebox img[src*="Wiktionary-logo-en-v2.svg"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}@media screen and (prefers-color-scheme:dark){html.skin-theme-clientpref-os .mw-parser-output .sistersitebox img[src*="Wiktionary-logo-en-v2.svg"]{filter:invert(1)brightness(55%)contrast(250%)hue-rotate(180deg)}}</style><div class="side-box side-box-right plainlinks sistersitebox"><style data-mw-deduplicate="TemplateStyles:r1126788409">.mw-parser-output .plainlist ol,.mw-parser-output .plainlist ul{line-height:inherit;list-style:none;margin:0;padding:0}.mw-parser-output .plainlist ol li,.mw-parser-output .plainlist ul li{margin-bottom:0}</style>
+<div class="side-box-flex">
+<div class="side-box-image"><span class="noviewer" typeof="mw:File"><a href="/wiki/File:Wiktionary-logo-en-v2.svg" class="mw-file-description"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/40px-Wiktionary-logo-en-v2.svg.png" decoding="async" width="40" height="40" class="mw-file-element" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/60px-Wiktionary-logo-en-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Wiktionary-logo-en-v2.svg/120px-Wiktionary-logo-en-v2.svg.png 2x" data-file-width="512" data-file-height="512" /></a></span></div>
+<div class="side-box-text plainlist">Look up <i><b><a href="https://en.wiktionary.org/wiki/Special:Search/internet_protocol" class="extiw" title="wiktionary:Special:Search/internet protocol">internet protocol</a></b></i> in Wiktionary, the free dictionary.</div></div>
+</div>
+<ul><li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFManfred&#95;Lindner" class="citation web cs1">Manfred Lindner. <a rel="nofollow" class="external text" href="https://www.ict.tuwien.ac.at/lva/384.081/datacom/09-IP_Technology_v6-3_handout.pdf">"IP Technology"</a> <span class="cs1-format">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-02-11</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=IP+Technology&amp;rft.au=Manfred+Lindner&amp;rft&#95;id=https%3A%2F%2Fwww.ict.tuwien.ac.at%2Flva%2F384.081%2Fdatacom%2F09-IP&#95;Technology&#95;v6-3&#95;handout.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></li>
+<li><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333433106" /><cite id="CITEREFManfred&#95;Lindner" class="citation web cs1">Manfred Lindner. <a rel="nofollow" class="external text" href="https://www.ict.tuwien.ac.at/lva/384.081/datacom/10-IP_Routing_v6-2_handout.pdf">"IP Routing"</a> <span class="cs1-format">(PDF)</span><span class="reference-accessdate">. Retrieved <span class="nowrap">2018-02-11</span></span>.</cite><span title="ctx&#95;ver=Z39.88-2004&amp;rft&#95;val&#95;fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=IP+Routing&amp;rft.au=Manfred+Lindner&amp;rft&#95;id=https%3A%2F%2Fwww.ict.tuwien.ac.at%2Flva%2F384.081%2Fdatacom%2F10-IP&#95;Routing&#95;v6-2&#95;handout.pdf&amp;rfr&#95;id=info%3Asid%2Fen.wikipedia.org%3AInternet+Protocol" class="Z3988"></span></li></ul>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><style data-mw-deduplicate="TemplateStyles:r1314944253">.mw-parser-output .navbox{box-sizing:border-box;border:1px solid #a2a9b1;width:100%;clear:both;font-size:88%;text-align:center;padding:1px;margin:1em auto 0}.mw-parser-output .navbox .navbox{margin-top:0}.mw-parser-output .navbox+.navbox,.mw-parser-output .navbox+.navbox-styles+.navbox{margin-top:-1px}.mw-parser-output .navbox-inner,.mw-parser-output .navbox-subgroup{width:100%}.mw-parser-output .navbox-group,.mw-parser-output .navbox-title,.mw-parser-output .navbox-abovebelow{padding:0.25em 1em;line-height:1.5em;text-align:center}.mw-parser-output .navbox-group{white-space:nowrap;text-align:right}.mw-parser-output .navbox,.mw-parser-output .navbox-subgroup{background-color:#fdfdfd;color:inherit}.mw-parser-output .navbox-list{line-height:1.5em;border-color:#fdfdfd}.mw-parser-output .navbox-list-with-group{text-align:left;border-left-width:2px;border-left-style:solid}.mw-parser-output tr+tr>.navbox-abovebelow,.mw-parser-output tr+tr>.navbox-group,.mw-parser-output tr+tr>.navbox-image,.mw-parser-output tr+tr>.navbox-list{border-top:2px solid #fdfdfd}.mw-parser-output .navbox-title{background-color:#ccf;color:inherit}.mw-parser-output .navbox-abovebelow,.mw-parser-output .navbox-group,.mw-parser-output .navbox-subgroup .navbox-title{background-color:#ddf;color:inherit}.mw-parser-output .navbox-subgroup .navbox-group,.mw-parser-output .navbox-subgroup .navbox-abovebelow{background-color:#e6e6ff;color:inherit}.mw-parser-output .navbox-even{background-color:#f7f7f7;color:inherit}.mw-parser-output .navbox-odd{background-color:transparent;color:inherit}.mw-parser-output .navbox .hlist td dl,.mw-parser-output .navbox .hlist td ol,.mw-parser-output .navbox .hlist td ul,.mw-parser-output .navbox td.hlist dl,.mw-parser-output .navbox td.hlist ol,.mw-parser-output .navbox td.hlist ul{padding:0.125em 0}.mw-parser-output .navbox .navbar{display:block;font-size:100%}.mw-parser-output .navbox-title .navbar{float:left;text-align:left;margin-right:0.5em}body.skin--responsive .mw-parser-output .navbox-image img{max-width:none!important}@media print{body.ns-0 .mw-parser-output .navbox{display:none!important}}</style></div><div role="navigation" class="navbox" aria-labelledby="Internet&#95;Protocol&#95;version&#95;6706" style="padding:3px"><table class="nowraplinks mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1239400231" /><div class="navbar plainlinks hlist navbar-mini"><ul><li class="nv-view"><a href="/wiki/Template:IPv6" title="Template:IPv6"><abbr title="View this template">v</abbr></a></li><li class="nv-talk"><a href="/wiki/Template_talk:IPv6" title="Template talk:IPv6"><abbr title="Discuss this template">t</abbr></a></li><li class="nv-edit"><a href="/wiki/Special:EditPage/Template:IPv6" title="Special:EditPage/Template:IPv6"><abbr title="Edit this template">e</abbr></a></li></ul></div><div id="Internet&#95;Protocol&#95;version&#95;6706" style="font-size:114%;margin:0 4em"><a class="mw-selflink selflink">Internet Protocol</a> <a href="/wiki/IPv6" title="IPv6">version 6</a></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">General</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/IPv6" title="IPv6">IPv6</a></li>
+<li><a href="/wiki/IPv6_address" title="IPv6 address">IPv6 address</a></li>
+<li><a href="/wiki/IPv6_packet" title="IPv6 packet">IPv6 packet</a></li>
+<li><a href="/wiki/Mobile_IP#Changes_in_IPv6_for_Mobile_IPv6" title="Mobile IP">Mobile IPv6</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Deployment</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/IPv6_deployment" title="IPv6 deployment">IPv6 deployment</a>
+<ul><li><a href="/wiki/6rd" class="mw-redirect" title="6rd">6rd</a></li></ul></li>
+<li><a href="/wiki/World_IPv6_Day_and_World_IPv6_Launch_Day" title="World IPv6 Day and World IPv6 Launch Day">World IPv6 Day and World IPv6 Launch Day</a></li>
+<li><a href="/wiki/Comparison_of_IPv6_support_in_operating_systems" title="Comparison of IPv6 support in operating systems">Comparison of IPv6 support in operating systems</a></li>
+<li><a href="/wiki/Comparison_of_IPv6_support_in_common_applications" title="Comparison of IPv6 support in common applications">Comparison of IPv6 support in common applications</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">IPv4 to IPv6 topics</th><td class="navbox-list-with-group navbox-list navbox-odd hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/IPv4_address_exhaustion" title="IPv4 address exhaustion">IPv4 address exhaustion</a></li>
+<li><a href="/wiki/IPv6_transition_mechanism" class="mw-redirect" title="IPv6 transition mechanism">IPv6 transition mechanism</a></li></ul>
+</div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">Related protocols</th><td class="navbox-list-with-group navbox-list navbox-even hlist" style="width:100%;padding:0"><div style="padding:0 0.25em">
+<ul><li><a href="/wiki/DHCPv6" title="DHCPv6">DHCPv6</a></li>
+<li><a href="/wiki/Internet_Control_Message_Protocol_for_IPv6" class="mw-redirect" title="Internet Control Message Protocol for IPv6">ICMPv6</a>
+<ul><li><a href="/wiki/Neighbor_Discovery_Protocol" title="Neighbor Discovery Protocol">Neighbor Discovery Protocol</a></li>
+<li><a href="/wiki/Multicast_Listener_Discovery" title="Multicast Listener Discovery">Multicast Listener Discovery</a></li>
+<li><a href="/wiki/Secure_Neighbor_Discovery" title="Secure Neighbor Discovery">Secure Neighbor Discovery</a></li>
+<li><a href="/wiki/Multicast_router_discovery" title="Multicast router discovery">Multicast router discovery</a></li></ul></li>
+<li><a href="/wiki/Site_Multihoming_by_IPv6_Intermediation" title="Site Multihoming by IPv6 Intermediation">Site Multihoming by IPv6 Intermediation</a></li></ul>
+</div></td></tr></tbody></table></div>
+<div class="navbox-styles"><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1333133064" /><link rel="mw-deduplicated-inline-style" href="mw-data:TemplateStyles:r1314944253" /><style data-mw-deduplicate="TemplateStyles:r1038841319">.mw-parser-output .tooltip-dotted{border-bottom:1px dotted;cursor:help}</style></div><div role="navigation" class="navbox authority-control" aria-labelledby="Authority&#95;control&#95;databases&#95;frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit&#95;this&#95;at&#95;Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q8795#identifiers&amp;#124;class=noprint&amp;#124;Edit&#95;this&#95;at&#95;Wikidata688" style="padding:3px"><table class="nowraplinks hlist mw-collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit"><tbody><tr><th scope="col" class="navbox-title" colspan="2"><div id="Authority&#95;control&#95;databases&#95;frameless&amp;#124;text-top&amp;#124;10px&amp;#124;alt=Edit&#95;this&#95;at&#95;Wikidata&amp;#124;link=https&amp;#58;//www.wikidata.org/wiki/Q8795#identifiers&amp;#124;class=noprint&amp;#124;Edit&#95;this&#95;at&#95;Wikidata688" style="font-size:114%;margin:0 4em"><a href="/wiki/Help:Authority_control" title="Help:Authority control">Authority control databases</a> <span class="mw-valign-text-top noprint" typeof="mw:File/Frameless"><a href="https://www.wikidata.org/wiki/Q8795#identifiers" title="Edit this at Wikidata"><img alt="Edit this at Wikidata" src="//upload.wikimedia.org/wikipedia/en/thumb/8/8a/OOjs_UI_icon_edit-ltr-progressive.svg/20px-OOjs_UI_icon_edit-ltr-progressive.svg.png" decoding="async" width="10" height="10" class="mw-file-element" data-file-width="20" data-file-height="20" /></a></span></div></th></tr><tr><th scope="row" class="navbox-group" style="width:1%">International</th><td class="navbox-list-with-group navbox-list navbox-odd" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><a rel="nofollow" class="external text" href="https://d-nb.info/gnd/4482590-0">GND</a></span></li></ul></div></td></tr><tr><th scope="row" class="navbox-group" style="width:1%">National</th><td class="navbox-list-with-group navbox-list navbox-even" style="width:100%;padding:0"><div style="padding:0 0.25em"><ul><li><span class="uid"><span class="rt-commentedText tooltip tooltip-dotted" title="IP (internetový protokol)"><a rel="nofollow" class="external text" href="https://aleph.nkp.cz/F/?func=find-c&amp;local_base=aut&amp;ccl_term=ica=ph165187&amp;CON_LNG=ENG">Czech Republic</a></span></span></li></ul></div></td></tr></tbody></table></div>
+<!-- 
+NewPP limit report
+Parsed by mw‐web.eqiad.main‐5dcfbdbc76‐hn98b
+Cached time: 20260218100441
+Cache expiry: 1811
+Reduced expiry: true
+Complications: [vary‐revision‐sha1, show‐toc]
+CPU time usage: 0.657 seconds
+Real time usage: 0.858 seconds
+Preprocessor visited node count: 6430/1000000
+Revision size: 21412/2097152 bytes
+Post‐expand include size: 125358/2097152 bytes
+Template argument size: 6245/2097152 bytes
+Highest expansion depth: 23/100
+Expensive parser function count: 5/500
+Unstrip recursion depth: 1/20
+Unstrip post‐expand size: 172341/5000000 bytes
+Lua time usage: 0.434/10.000 seconds
+Lua memory usage: 9687999/52428800 bytes
+Number of Wikibase entities loaded: 1/500
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  764.731      1 -total
+ 38.47%  294.172      1 Template:Reflist
+ 14.56%  111.354     13 Template:Cite_IETF
+ 10.80%   82.592      1 Template:IPstack
+ 10.34%   79.036      1 Template:Sidebar
+  8.42%   64.383      1 Template:Short_description
+  6.86%   52.456     11 Template:Cite_web
+  6.83%   52.226     10 Template:Ref_RFC
+  6.60%   50.474      1 Template:Cite_report
+  6.02%   46.038      2 Template:Val
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:15323:|#|:idhash:canonical and timestamp 20260218100441 and revision id 1338688847. Rendering was triggered because: page_view
+ -->
+</div><noscript><img src="https://en.wikipedia.org/wiki/Special:CentralAutoLogin/start?useformat=desktop&amp;type=1x1&amp;usesul3=1" alt="" width="1" height="1" style="border: none; position: absolute;"></noscript>
+<div class="printfooter" data-nosnippet="">Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Internet_Protocol&amp;oldid=1338688847">https://en.wikipedia.org/w/index.php?title=Internet_Protocol&amp;oldid=1338688847</a>"</div></div>
+					<div id="catlinks" class="catlinks" data-mw-interface=""><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Internet_Protocol" title="Category:Internet Protocol">Internet Protocol</a></li><li><a href="/wiki/Category:Internet_layer_protocols" title="Category:Internet layer protocols">Internet layer protocols</a></li><li><a href="/wiki/Category:Internet" title="Category:Internet">Internet</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:Webarchive_template_wayback_links" title="Category:Webarchive template wayback links">Webarchive template wayback links</a></li><li><a href="/wiki/Category:Articles_with_short_description" title="Category:Articles with short description">Articles with short description</a></li><li><a href="/wiki/Category:Short_description_matches_Wikidata" title="Category:Short description matches Wikidata">Short description matches Wikidata</a></li><li><a href="/wiki/Category:Use_American_English_from_November_2025" title="Category:Use American English from November 2025">Use American English from November 2025</a></li><li><a href="/wiki/Category:All_Wikipedia_articles_written_in_American_English" title="Category:All Wikipedia articles written in American English">All Wikipedia articles written in American English</a></li><li><a href="/wiki/Category:Articles_containing_potentially_dated_statements_from_January_2023" title="Category:Articles containing potentially dated statements from January 2023">Articles containing potentially dated statements from January 2023</a></li><li><a href="/wiki/Category:All_articles_containing_potentially_dated_statements" title="Category:All articles containing potentially dated statements">All articles containing potentially dated statements</a></li></ul></div></div>
+				</div>
+			</main>
+			
+		</div>
+		<div class="mw-footer-container">
+			
+<footer id="footer" class="mw-footer" >
+	<ul id="footer-info">
+	<li id="footer-info-lastmod"> This page was last edited on 16 February 2026, at 17:31<span class="anonymous-show">&#160;(UTC)</span>.</li>
+	<li id="footer-info-copyright">Text is available under the <a href="/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License" title="Wikipedia:Text of the Creative Commons Attribution-ShareAlike 4.0 International License">Creative Commons Attribution-ShareAlike 4.0 License</a>;
+additional terms may apply. By using this site, you agree to the <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use" class="extiw" title="foundation:Special:MyLanguage/Policy:Terms of Use">Terms of Use</a> and <a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy" class="extiw" title="foundation:Special:MyLanguage/Policy:Privacy policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a rel="nofollow" class="external text" href="https://wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+</ul>
+
+	<ul id="footer-places">
+	<li id="footer-places-privacy"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy">Privacy policy</a></li>
+	<li id="footer-places-about"><a href="/wiki/Wikipedia:About">About Wikipedia</a></li>
+	<li id="footer-places-disclaimers"><a href="/wiki/Wikipedia:General_disclaimer">Disclaimers</a></li>
+	<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+	<li id="footer-places-legal-safety-contacts"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information">Legal &amp; safety contacts</a></li>
+	<li id="footer-places-wm-codeofconduct"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct">Code of Conduct</a></li>
+	<li id="footer-places-developers"><a href="https://developer.wikimedia.org">Developers</a></li>
+	<li id="footer-places-statslink"><a href="https://stats.wikimedia.org/#/en.wikipedia.org">Statistics</a></li>
+	<li id="footer-places-cookiestatement"><a href="https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement">Cookie statement</a></li>
+	<li id="footer-places-mobileview"><a href="//en.wikipedia.org/w/index.php?title=Internet_Protocol&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+</ul>
+
+	<ul id="footer-icons" class="noprint">
+	<li id="footer-copyrightico"><a href="https://www.wikimedia.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/static/images/footer/wikimedia-button.svg" width="84" height="29"><img src="/static/images/footer/wikimedia.svg" width="25" height="25" alt="Wikimedia Foundation" lang="en" loading="lazy"></picture></a></li>
+	<li id="footer-poweredbyico"><a href="https://www.mediawiki.org/" class="cdx-button cdx-button--fake-button cdx-button--size-large cdx-button--fake-button--enabled"><picture><source media="(min-width: 500px)" srcset="/w/resources/assets/poweredby_mediawiki.svg" width="88" height="31"><img src="/w/resources/assets/mediawiki_compact.svg" alt="Powered by MediaWiki" lang="en" width="25" height="25" loading="lazy"></picture></a></li>
+</ul>
+
+</footer>
+
+		</div>
+	</div> 
+</div> 
+<div class="vector-header-container vector-sticky-header-container no-font-mode-scale">
+	<div id="vector-sticky-header" class="vector-sticky-header">
+		<div class="vector-sticky-header-start">
+			<div class="vector-sticky-header-icon-start vector-button-flush-left" aria-hidden="true">
+				<button class="cdx-button cdx-button--weight-quiet cdx-button--icon-only vector-sticky-header-search-toggle" tabindex="-1" data-event-name="ui.vector-sticky-search-form.icon"><span class="vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search"></span>
+
+<span>Search</span>
+			</button>
+		</div>
+			
+		<div role="search" class="vector-search-box-vue  vector-search-box-show-thumbnail vector-search-box">
+			<div class="vector-typeahead-search-container">
+				<div class="cdx-typeahead-search cdx-typeahead-search--show-thumbnail">
+					<form action="/w/index.php" id="vector-sticky-search-form" class="cdx-search-input cdx-search-input--has-end-button">
+						<div  class="cdx-search-input__input-wrapper"  data-search-loc="header-moved">
+							<div class="cdx-text-input cdx-text-input--has-start-icon">
+								<input
+									class="cdx-text-input__input mw-searchInput" autocomplete="off"
+									
+									type="search" name="search" placeholder="Search Wikipedia">
+								<span class="cdx-text-input__icon cdx-text-input__start-icon"></span>
+							</div>
+							<input type="hidden" name="title" value="Special:Search">
+						</div>
+						<button class="cdx-button cdx-search-input__end-button">Search</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-context-bar">
+				<nav aria-label="Contents" class="vector-toc-landmark">
+						
+					<div id="vector-sticky-header-toc" class="vector-dropdown mw-portlet mw-portlet-sticky-header-toc vector-sticky-header-toc vector-button-flush-left"  >
+						<input type="checkbox" id="vector-sticky-header-toc-checkbox" role="button" aria-haspopup="true" data-event-name="ui.dropdown-vector-sticky-header-toc" class="vector-dropdown-checkbox "  aria-label="Toggle the table of contents"  >
+						<label id="vector-sticky-header-toc-label" for="vector-sticky-header-toc-checkbox" class="vector-dropdown-label cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only " aria-hidden="true"  ><span class="vector-icon mw-ui-icon-listBullet mw-ui-icon-wikimedia-listBullet"></span>
+
+<span class="vector-dropdown-label-text">Toggle the table of contents</span>
+						</label>
+						<div class="vector-dropdown-content">
+					
+						<div id="vector-sticky-header-toc-unpinned-container" class="vector-unpinned-container">
+						</div>
+					
+						</div>
+					</div>
+			</nav>
+				<div class="vector-sticky-header-context-bar-primary" aria-hidden="true" ><span class="mw-page-title-main">Internet Protocol</span></div>
+			</div>
+		</div>
+		<div class="vector-sticky-header-end" aria-hidden="true">
+			<div class="vector-sticky-header-icons">
+				<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-talk-sticky-header" tabindex="-1" data-event-name="talk-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbles mw-ui-icon-wikimedia-speechBubbles"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-subject-sticky-header" tabindex="-1" data-event-name="subject-sticky-header"><span class="vector-icon mw-ui-icon-article mw-ui-icon-wikimedia-article"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-history-sticky-header" tabindex="-1" data-event-name="history-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-history mw-ui-icon-wikimedia-wikimedia-history"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only mw-watchlink" id="ca-watchstar-sticky-header" tabindex="-1" data-event-name="watch-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-star mw-ui-icon-wikimedia-wikimedia-star"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-edit-sticky-header" tabindex="-1" data-event-name="wikitext-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-wikiText mw-ui-icon-wikimedia-wikimedia-wikiText"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-ve-edit-sticky-header" tabindex="-1" data-event-name="ve-edit-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-edit mw-ui-icon-wikimedia-wikimedia-edit"></span>
+
+<span></span>
+			</a>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--icon-only" id="ca-viewsource-sticky-header" tabindex="-1" data-event-name="ve-edit-protected-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-editLock mw-ui-icon-wikimedia-wikimedia-editLock"></span>
+
+<span></span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-buttons">
+				<button class="cdx-button cdx-button--weight-quiet mw-interlanguage-selector" id="p-lang-btn-sticky-header" tabindex="-1" data-event-name="ui.dropdown-p-lang-btn-sticky-header"><span class="vector-icon mw-ui-icon-wikimedia-language mw-ui-icon-wikimedia-wikimedia-language"></span>
+
+<span>79 languages</span>
+			</button>
+			<a href="#" class="cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet cdx-button--action-progressive" id="ca-addsection-sticky-header" tabindex="-1" data-event-name="addsection-sticky-header"><span class="vector-icon mw-ui-icon-speechBubbleAdd-progressive mw-ui-icon-wikimedia-speechBubbleAdd-progressive"></span>
+
+<span>Add topic</span>
+			</a>
+		</div>
+			<div class="vector-sticky-header-icon-end">
+				<div class="vector-user-links">
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="mw-portlet mw-portlet-dock-bottom emptyPortlet" id="p-dock-bottom">
+	<ul>
+		
+	</ul>
+</div>
+<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgHostname":"mw-web.eqiad.main-5dcfbdbc76-xnww8","wgBackendResponseTime":180,"wgPageParseReport":{"limitreport":{"cputime":"0.657","walltime":"0.858","ppvisitednodes":{"value":6430,"limit":1000000},"revisionsize":{"value":21412,"limit":2097152},"postexpandincludesize":{"value":125358,"limit":2097152},"templateargumentsize":{"value":6245,"limit":2097152},"expansiondepth":{"value":23,"limit":100},"expensivefunctioncount":{"value":5,"limit":500},"unstrip-depth":{"value":1,"limit":20},"unstrip-size":{"value":172341,"limit":5000000},"entityaccesscount":{"value":1,"limit":500},"timingprofile":["100.00%  764.731      1 -total"," 38.47%  294.172      1 Template:Reflist"," 14.56%  111.354     13 Template:Cite_IETF"," 10.80%   82.592      1 Template:IPstack"," 10.34%   79.036      1 Template:Sidebar","  8.42%   64.383      1 Template:Short_description","  6.86%   52.456     11 Template:Cite_web","  6.83%   52.226     10 Template:Ref_RFC","  6.60%   50.474      1 Template:Cite_report","  6.02%   46.038      2 Template:Val"]},"scribunto":{"limitreport-timeusage":{"value":"0.434","limit":"10.000"},"limitreport-memusage":{"value":9687999,"limit":52428800}},"cachereport":{"origin":"mw-web.eqiad.main-5dcfbdbc76-hn98b","timestamp":"20260218100441","ttl":1811,"transientcontent":true}}});});</script>
+<script type="application/ld+json">{"@context":"https:\/\/schema.org","@type":"Article","name":"Internet Protocol","url":"https:\/\/en.wikipedia.org\/wiki\/Internet_Protocol","sameAs":"http:\/\/www.wikidata.org\/entity\/Q8795","mainEntity":"http:\/\/www.wikidata.org\/entity\/Q8795","author":{"@type":"Organization","name":"Contributors to Wikimedia projects"},"publisher":{"@type":"Organization","name":"Wikimedia Foundation, Inc.","logo":{"@type":"ImageObject","url":"https:\/\/www.wikimedia.org\/static\/images\/wmf-hor-googpub.png"}},"datePublished":"2001-11-05T15:09:42Z","dateModified":"2026-02-16T17:31:45Z","headline":"communication protocol that allows connections between networks"}</script>
+</body>
+</html>
