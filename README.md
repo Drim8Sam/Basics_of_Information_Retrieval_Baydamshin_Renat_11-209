@@ -1,5 +1,5 @@
 # InformationRetrievalBasic
-## Baydamshin Renat, group 11-209
+## Baydamshin Renat, Klimkin Ilya, group 11-209
 
 ---
 # Deployment Manual
