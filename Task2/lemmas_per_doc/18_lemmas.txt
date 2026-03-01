@@ -1,0 +1,731 @@
+abraham abraham
+abstract abstraction
+acceler acceleration
+access access
+account account
+acm acm
+action actions
+activ active activity
+add add
+addit additional
+address address addressing
+advent advent
+agre agree
+ai ais
+algorithm algorithm algorithms
+alloc allocated allocates
+allow allow allowable allows
+almost almost
+also also
+altern alternative
+although although
+amdahl amdahl
+analysi analysis
+andrea andrea
+anoth another
+api api apis
+appear appear appearance
+appli applies apply
+applic application applications
+architectur architecture architectures
+archiv archived
+arpaci arpaci
+array array arrays
+arrow arrows
+articl article articles
+assign assigned assigns
+associ associate associated associative
+asymmetr asymmetric
+asynchron asynchronous
+ateji ateji
+attribut attribute attributes attribution
+author authority
+automat automatic
+avail available
+back back
+background background
+baer baer
+bahasa bahasa
+barrier barrier
+becam became
+behav behave
+beowulf beowulf
+bit bit
+block block blocked blocking blocks
+bokm bokm
+book books
+boost boost
+boot boot
+born born
+bosanski bosanski
+bound bound
+bu bus
+busi busy
+cach cache
+cagn cagne
+calculi calculi
+call call called
+came came
+case case
+catal catal
+categori categories category
+caus cause
+cave cave
+cd cd
+certain certain
+chang changed changes
+chapel chapel
+chapter chapter chapters
+charm charm
+cheap cheap
+checkpoint checkpointing
+child child
+cilk cilk
+cite cite
+classifi classifying
+cli cli
+cloud cloud
+cluster cluster clustered
+cmt cmt
+coarray coarray
+code code
+coher coherence
+collect collection
+coma coma
+combin combine
+come come
+common common commons
+commun communicate communication communications community
+comparison comparison
+complet completely completion
+compon components
+compris comprises
+comput computation computer computers computing
+concept concept concepts
+concurr concurrency concurrent concurrently
+condit condition
+conduct conduct
+configur configuration
+confus confuse
+consequ consequently
+consist consist consists
+contact contact contacts
+content content contents
+context context
+contribut contribute
+control control controlled
+cooki cookie
+cooper cooperating cooperative
+coordin coordinate coordination
+core core cores
+cost cost
+cpu cpu cpus
+creat create created
+creation creation
+creativ creative
+cuda cuda
+current current
+dansk dansk
+data data
+databas database databases
+dataflow dataflow
+deadlock deadlock
+decid decides
+decompos decomposed
+defin defined
+defragment defragmentation
+delay delay
+depend depending
+descript description
+descriptor descriptors
+design design
+determinist deterministic
+deutsch deutsch
+develop developers
+devic device
+diagram diagram
+differ different
+direct direct
+directori directory
+disclaim disclaimers
+disk disk
+display displayed
+distribut distributed
+donat donate
+download download
+drive drive
+driver driver
+dryad dryad
+dual dual
+dualiti duality
+dusseau dusseau
+earli early
+easi easy
+ed ed
+edit edit edited
+effect effect
+effici efficiency
+element elements
+elig eligible
+embarrassingli embarrassingly
+embed embedded
+en en
+enabl enable
+encyclopedia encyclopedia
+engin engineering
+english english
+enough enough
+entir entire
+entiti entity
+entrant entrant
+environ environment
+error error
+espa espa
+essenti essentially
+etc etc
+euskara euskara
+even even
+event events
+evolv evolved
+exampl example
+except except
+execut executable execute executed executes executing execution executive
+exit exit
+exokernel exokernel
+expand expanded
+expir expired
+explicit explicit
+export export
+extens extensions
+extern external
+fact fact
+failur failures
+fair fair
+faster faster
+fault fault
+feasibl feasible
+featur feature features
+feedback feedback
+fiber fiber
+figur figure
+file file
+finish finish finishes
+first first
+fix fixed
+flatt flatt
+flynn flynn
+follow following
+forens forensic
+fork fork
+form form forms
+fortran fortran
+forum forum
+foundat foundation
+fran fran
+free free
+frontier frontiers
+fulli fully
+function functionality
+furthermor furthermore
+galego galego
+galvin galvin
+gari gary
+gave gave
+gener general generally generated
+get get
+give give
+given given
+global global
+gnd gnd
+got got
+gpgpu gpgpu
+gpuopen gpuopen
+greg greg
+grid grid
+group group
+guard guard
+gustafson gustafson
+hal hal
+hall hall
+halt halted
+handl handles
+hard hard
+hardwar hardware
+heap heap
+help help
+henc hence
+heterogen heterogenous
+hidden hidden
+hide hide
+high high
+higher higher
+histor historic
+histori histories history
+hobbyist hobbyist
+hold hold holds
+howev however
+hpx hpx
+hrvatski hrvatski
+htop htop
+http https
+hugh hugh
+hybrid hybrid
+hyper hyper
+ibsi ibsys
+idl idle
+imag image
+immedi immediately
+implement implementation
+implicit implicit
+import important
+imposs impossible
+ina ina
+inc inc
+includ includes including
+independ independent
+index index
+indic indicating
+indonesia indonesia
+inform information
+initi initiate
+inod inode
+input input
+instanc instance instances
+instantli instantly
+instruct instruction instructions
+intel intel
+inter inter
+interact interact interactive
+intercommun intercommunication
+interfac interface
+interfer interfere
+interleav interleaving
+interlingua interlingua
+intermedi intermediate
+intern internals international
+interrupt interrupt interrupts
+invalid invalidation
+invent invention
+ipc ipc
+iria iria
+isbn isbn
+issu issue
+italiano italiano
+item item
+januari january
+java java
+job job
+john john
+journal journal
+jump jump
+karp karp
+kde kde
+keep keep keeps
+kernel kernel kernels
+key key
+kind kind
+knott knott
+languag languages
+larg large
+last last
+later later
+latter latter
+lauer lauer
+law law
+lead lead
+learn learn learning
+least least
+legal legal
+less less
+level levels
+librari library
+licens license
+light light
+like like likely
+limit limited
+link link links
+linux linux
+list list
+live live
+load loaded loads
+loadabl loadable
+loader loader
+locat location
+lockout lockout
+log log
+logic logical
+longer longer
+loop loop
+lower lower
+machin machine machines
+made made
+magyar magyar
+main main
+make makes
+manag managed management
+mani many
+manycor manycore
+massiv massively
+match matches
+may may
+mean means
+mechan mechanisms
+media media
+mediat mediated
+memori memory
+menu menu
+messag message
+method method methods
+metric metric
+microkernel microkernel
+might might
+mimd mimd
+misd misd
+mobil mobile
+model model models
+modern modern
+modul module
+monitor monitor
+monolith monolithic
+mous mouse
+move move moved moving
+mpi mpi
+multi multi
+multikernel multikernel
+multilevel multilevel
+multipl multiple
+multiprocess multiprocessing
+multiprocessor multiprocessor
+multiprogram multiprogramming
+multitask multitasking
+multithread multithreading
+music music
+must must
+name names
+natur nature
+navig navigation
+necessari necessary
+nederland nederlands
+need need needed needs
+needham needham
+neither neither
+network network networks
+new new
+next next
+ng ng
+non non
+norsk norsk
+note notes
+notion notion
+numa numa
+nynorsk nynorsk
+object object
+octob october
+often often
+ol ol
+old old
+oldid oldid
+one one
+onlin online
+open open opening
+openacc openacc
+opencl opencl
+openhmpp openhmpp
+openmp openmp
+oper operating operation operations
+oppos opposed
+org org
+organ organization
+orient oriented
+orphan orphan
+os os
+otherwis otherwise
+output output
+owner owner
+page page pages paging
+paper paper
+parallel parallel parallelism parallelization
+parent parent
+part parts
+partial partially
+particular particular
+particularli particularly
+partit partition
+pass pass passing
+passiv passive
+pdf pdf
+pem pem
+perform performance performed
+perman permanent
+permiss permissions
+person personal
+peter peter
+php php
+physic physical
+piec pieces
+pipelin pipeline pipelined
+polici policy
+polski polski
+portal portal
+portion portions
+portugu portugu
+possibl possible
+pp pp
+pram pram
+predict predictable
+preempt preempting
+preemption preemption
+preemptiv preemptive
+prefer preferred
+prentic prentice
+press pressing
+prevent prevent
+previous previously
+primit primitives
+principl principles
+print print
+printabl printable
+printer printer
+prioriti priority
+privaci privacy
+problem problems
+proc proc
+process process processes processing
+processor processor processors
+profit profit
+program program programming programs
+project projects
+propos proposal
+protect protection
+protocol protocols
+provid provide provided providing
+pthread pthreads
+pvm pvm
+px px
+pxe pxe
+qaraqalpaqsha qaraqalpaqsha
+qr qr
+queue queue
+race race
+raftlib raftlib
+ran ran
+random random
+rapidli rapidly
+re re
+read read reading
+readi ready
+real real
+realli really
+recent recent recently
+reentrant reentrant
+refer refer references referring
+region region regions
+regist registered registers
+relat related
+relev relevant
+reliabl reliability
+remov removed
+remzi remzi
+represent representation
+reproduct reproduction
+request requests
+resourc resource resources
+respect respect
+result result results
+retriev retrieved
+review review
+ring ring
+rk rk
+robin robin
+rocm rocm
+roger roger
+rom rom
+root rooted
+round round
+rump rump
+run run running
+safe safe
+safeti safety
+said said
+scalabl scalability
+scarc scarce
+schedul scheduler scheduling
+scout scout
+search search
+second second
+secondari secondary
+section section
+secur security
+see see
+seem seem
+seemingli seemingly
+segment segmentation
+send sending
+sens sense
+separ separate
+sequenc sequences
+serial serial
+set set
+sever several
+share share shared sharing
+sharealik sharealike
+shell shell
+short short
+shorten shortened
+shortest shortest
+shortli shortly
+side side
+sidebar sidebar
+sigop sigops
+silberschatz silberschatz
+simd simd
+similar similar
+simpl simple
+simt simt
+simul simulate
+simultan simultaneous simultaneously
+sinc since
+singl single
+sink sinks
+sisd sisd
+site site
+sixth sixth
+sloven sloven
+slow slow
+slowdown slowdown
+smt smt
+softwar software
+someth something
+somewhat somewhat
+son sons
+sourc sources
+space space spaces
+special special
+specif specific
+specul speculative
+speedup speedup
+spin spin
+spmt spmt
+srpski srpski
+stack stack
+stall stallings
+stamped stampede
+standardis standardised
+start start
+starvat starvation
+state state states
+statement statement
+statist statistics
+still still
+storag storage
+store stored
+stream stream
+strictli strictly
+structur structures
+subroutin subroutines
+subsect subsection
+subset subset
+suomi suomi
+supercomput supercomputer
+superscalar superscalar
+support support supporting
+suspend suspend
+svenska svenska
+swap swapping
+switch switch switches switching
+symmetr symmetric
+symposium symposium
+synchron synchronization
+synonym synonyms
+system system systems
+systol systolic
+tabl table
+take takes
+talk talk
+tape tape
+task task tasks
+taxonomi taxonomy
+tbb tbb
+techniqu technique
+technolog technologies technology
+templat template
+tempor temporal
+term term terms
+termin terminated termination
+terminolog terminological terminology
+text text
+th th
+theori theory
+thereaft thereafter
+therefor therefore
+though though
+thrash thrashing
+thread thread threading threads
+three three
+ti ti
+time time times
+timelin timeline
+tina tina
+titl title
+today today
+toggl toggle
+tool tools
+top top
+topic topic
+track track
+trademark trademark
+transit transition transitions
+transpar transparent
+true true
+two two
+typic typically
+uma uma
+underli underlying
+unikernel unikernel
+uniprocessor uniprocessor
+unix unix
+unless unless
+unus unused
+upc upc
+upload upload
+uresh uresh
+url url
+us us
+usag usage
+usb usb
+use use used using
+user user users
+usual usual
+utc utc
+util utilized
+vahalia vahalia
+variant variants
+variou various
+vector vector
+version version
+vi vi
+video video
+view view
+virtual virtual
+vkernel vkernel
+volum volume
+voluntarili voluntarily
+vs vs
+wait wait waiting waits
+way way ways
+wayback wayback
+webarch webarchive
+weight weight
+whenev whenever
+wikidata wikidata
+wikimedia wikimedia
+wikipedia wikipedia
+wikivers wikiversity
+wiley wiley
+william william
+window window windows
+without without
+work working
+yield yields
+zombi zombie
+zpl zpl
